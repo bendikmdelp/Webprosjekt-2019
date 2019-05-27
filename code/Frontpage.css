@@ -1,0 +1,23 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+#startContainer{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    margin: 0;
+}
+
+#tableButton{
+    left: 200px;
+    top: 200px;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    background-color: aqua;
+}
