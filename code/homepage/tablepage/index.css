@@ -1,0 +1,75 @@
+body{
+    height: 100%;
+    width:100%;
+    background-color: blue;
+    margin: 0px;
+}
+
+#header{
+    position: absolute;
+    left:45%;
+    height: 10%;
+    top:0;
+    font-size: 80;
+    color:white;
+}
+
+#mainStage{
+    position: absolute;
+    border: 1px solid black;
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    top: 10%;
+    left:10%;
+    z-index: 2;
+    box-shadow: -5px -5px 5px 5px black;
+}
+#ideaCard{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    background-color: white;
+    top: 10%;
+    left:5%;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+#ideaObject{
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    border: 1px solid black;
+    left: 5%;
+    top: 2.5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px black;
+}
+
+#home{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top:10%;
+    background-color: black;
+    font-size: 75;
+    color: white;
+}
+#info{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top:20%;
+    background-color: black;
+    font-size: 75;
+    color: white;
+}
+#supprt{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top:30%;
+    background-color: black;
+    font-size: 55;
+    color: white;
+}
