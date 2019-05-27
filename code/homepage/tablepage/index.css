@@ -46,6 +46,15 @@ body{
     box-shadow: 2px 2px 5px 5px black;
 }
 
+#profile{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top:40%;
+    background-color: black;
+    font-size: 65;
+    color: white;
+}
 #home{
     position: absolute;
     height: 10%;
@@ -64,12 +73,12 @@ body{
     font-size: 75;
     color: white;
 }
-#supprt{
+#calendar{
     position: absolute;
     height: 10%;
     width: 10%;
     top:30%;
     background-color: black;
-    font-size: 55;
+    font-size: 45;
     color: white;
 }
