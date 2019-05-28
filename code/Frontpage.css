@@ -4,6 +4,9 @@ html, body{
     margin: 0;
 }
 
+#header{
+    
+}
 
 #startContainer{
     width: 1920px;
@@ -27,7 +30,7 @@ html, body{
     top: 100px;
     height: 100px;
     width: 200px;
-    position: relative; 
+    position: center; 
     background-color: brown;
 }
 
