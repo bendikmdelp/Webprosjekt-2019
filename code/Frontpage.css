@@ -5,41 +5,123 @@ html, body{
 }
 
 #header{
-    
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #startContainer{
     width: 1920px;
     height: 1080px;
-    background-color: red;
-    position: relative;
+    background-color: rgb(205, 249, 252);
+    position: absolute; 
     margin: 0;
+    background-image: radial-gradient(rgb(215, 236, 253), rgb(102, 183, 250));
 }
 
 #button1{
     left: 200px;
-    top: 200px;
-    height: 100px;
-    width: 200px;
-    position: relative;
-    background-color: aqua;
+    top: 300px;
+    height: 250px;
+    width: 400px;
+    position: absolute; 
+    background-color: rgb(163, 172, 253);
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+}
+
+#button1 a {
+    font-size: 80px;
+    font-family:'Raleway', sans-serif;
+}
+
+#button1:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s; 
 }
 
 #button2{
-    left: 500px;
-    top: 100px;
-    height: 100px;
-    width: 200px;
-    position: center; 
-    background-color: brown;
+    left: 760px;
+    top: 300px;
+    height: 250px;
+    width: 400px;
+    position: absolute; 
+    background-color: rgb(245, 125, 125);
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Raleway', sans-serif;
+}
+
+#button2:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s;
 }
 
 #button3{
-    left: 800px;
-    top: 0px;
-    height: 100px;
-    width: 200px;
-    position: relative; 
-    background-color: green;
+    left: 1320px;
+    top: 300px;
+    height: 250px;
+    width: 400px;
+    position: absolute;  
+    background-color: rgb(144, 250, 144);
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Raleway', sans-serif;
 }
 
+#button3:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s;
+}
+
+#button4{
+    left: 200px;
+    top: 650px;
+    height: 250px;
+    width: 400px;
+    position: absolute; 
+    background-color: rgb(248, 255, 148);
+    border-style: solid;
+    border-width: thin;
+}
+
+#button4:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s;
+}
+
+#button5{
+    left: 760px;
+    top: 650px;
+    height: 250px;
+    width: 400px;
+    position: absolute; 
+    background-color: rgb(255, 157, 242);
+    border-style: solid;
+    border-width: thin;
+}
+
+#button5:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s;
+}
+
+#button6{
+    left: 1320px;
+    top: 650px;
+    height: 250px;
+    width: 400px;
+    position: absolute;  
+    background-color: rgb(255, 179, 134);
+    border-style: solid;
+    border-width: thin;
+}
+
+#button6:hover{
+    filter: drop-shadow(30px 10px 1px #4444dd);
+    transition: 0.3s;
+}
