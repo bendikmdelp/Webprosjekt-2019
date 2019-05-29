@@ -1,0 +1,139 @@
+
+p{
+    color:white;
+    font-size:22px;
+    font-family:verdana;
+    position:absolute;
+    z-index:1;
+    text-align:center;
+    left:400px;
+    top:150px;
+    
+}
+
+h1{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    
+}
+
+
+
+body{
+    height: 1080px;
+    width: 1920px;
+    background-color: blue;
+    margin: 0px;
+}
+
+#header{
+    position: absolute;
+    left:865px;
+    height: 108px;
+    top:0;
+    font-size: 80;
+    color:grey;
+}
+
+#mainStage{
+    position: absolute;
+    border: 1px solid black;
+    height: 972px;
+    width: 1729px;
+    background-color: red;
+    top: 98px;
+    left:192px;
+    z-index: 0;
+    box-shadow: -5px -5px 5px 5px black;
+}
+
+#profile{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:390px;
+    background-color: black;
+    font-size: 60;
+    color: white;
+}
+#home{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:90px;
+    background-color: black;
+    font-size: 70;
+    color: white;
+}
+#info{
+    position: absolute;
+    height: 98px;
+    width: 192px;
+    top:198px;
+    background-color: black;
+    font-size: 65   ;
+    color: white;
+}
+#calendar{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:294px;
+    background-color: black;
+    font-size: 50;
+    color: white;
+}
+
+
+ #circle {
+     position:absolute;
+      width: 210px;
+      height: 210px;
+      border-radius:210px;
+      background: white;
+      bottom:95px;;
+      left:300px;
+      z-index:1;
+     box-shadow:-50px -50px -50px grey;
+    }
+
+.circle:after{
+    content:'';
+    padding-bottom:100%;
+    display:block;
+    
+
+    
+}
+
+span{
+    position:absolute;
+    top:50%;
+    margin-left:15px;
+    font-size:25px;
+    color:black;
+    
+}
+
+#circle2 {
+    position:absolute;
+      width:210px;
+      height: 210px;
+      border-radius: 210px;
+      background: white;
+      bottom:95px;
+      left:900px;
+    }
+#circle3{
+     position:absolute;
+      width: 210px;
+      height: 210px;
+      border-radius: 210px;
+      background: white;
+      bottom:95px;
+      left:1500px;
+    }
+
+
+
