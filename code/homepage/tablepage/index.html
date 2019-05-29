@@ -1,4 +1,5 @@
 <head>
+    <link href="Template.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
     <script src="index.js"></script>
 </head>
@@ -9,7 +10,34 @@
     <div id="profile">Profile</div>
     <div id="calendar">Calendar</div>
     <div id="mainStage">
-
+        <div id="ideaCard">
+            <h3 id="ideasText">Ideas</h3>
+            <ul id="ideaList">
+                <li>first</li>
+            </ul>
+            <button id=btn onclick="addToIdea()">click me</button>
+        </div>
+        <div id="toDo">
+            <h3 id="todoText">To Do</h3>
+            <ul id="todoList">
+                <li>first</li>
+            </ul>
+            <button id=btn onclick="addToDoList()">click me</button>
+        </div>
+        <div id="inProgress">            
+            <h3 id="progressText">In Progress</h3>
+            <ul id="progressList">
+                <li>first</li>
+            </ul>
+            <button id=btn onclick="addToProgress()">click me</button>
+        </div>
+        <div id="finished">            
+            <h3 id="finishedText">Finished</h3>
+            <ul id="finishedList">
+                <li>first</li>
+            </ul>
+            <button id=btn onclick="addToFinished()">click me</button>
+        </div>
     </div>
 </body>
 
