@@ -16,7 +16,7 @@ function addToIdea(){
         var descriptionItem=document.createElement("li");
         var descriptionNode=document.createTextNode(description);
         var desNameAtt = document.createAttribute("id");
-        desNameAtt.value=prompt("add an id");
+        desNameAtt.value=Math.random;
         descriptionItem.appendChild(descriptionNode);
         cardList.appendChild(descriptionItem);
         descriptionItem.setAttributeNode(desNameAtt);
@@ -27,7 +27,7 @@ function addToIdea(){
         var userItem=document.createElement("li");
         var userNode=document.createTextNode(users);
         var usrNameAtt = document.createAttribute("id");
-        usrNameAtt.value=prompt("add an id");
+        usrNameAtt.value=Math.random;
         userItem.appendChild(userNode);
         cardList.appendChild(userItem);
         userItem.setAttributeNode(usrNameAtt);
@@ -35,12 +35,12 @@ function addToIdea(){
     cardList.style.border="1px solid black";
     
 }
+
 document.addEventListener('click', function(e) {
     var element= document.getElementById(e.target.id);
-    //alert(element.tagName);
     if(element.tagName == "LI"){
     var newData = prompt("enter new data");   document.getElementById(e.target.id).innerHTML=newData;
-}
+    }
 }, false);
 
 function addToDoList(){
