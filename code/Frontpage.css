@@ -7,6 +7,7 @@ html, body{
 #header{
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
 }
 
 #startContainer{
@@ -97,7 +98,7 @@ html, body{
     position: absolute;
     width: 120px;
     top: 85px;
-    left: 145px;
+    left: 140px;
 }
 
 #button4{
