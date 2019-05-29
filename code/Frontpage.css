@@ -31,13 +31,21 @@ html, body{
 }
 
 #button1 a {
-    font-size: 80px;
+    font-size: 60px;
     font-family:'Raleway', sans-serif;
+    vertical-align: middle;
 }
 
 #button1:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s; 
+    transition: 0.1s; 
+}
+
+#tablePic{
+    position: absolute;
+    width: 130px;
+    top: 90px;
+    left: 137px;
 }
 
 #button2{
@@ -50,13 +58,20 @@ html, body{
     border-style: solid;
     border-width: thin;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     font-family:'Raleway', sans-serif;
 }
 
 #button2:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s;
+    transition: 0.1s;
+}
+
+#calendarPic{
+    width: 110px;
+    position: absolute;
+    top:80px;
+    left: 150px;
 }
 
 #button3{
@@ -69,13 +84,20 @@ html, body{
     border-style: solid;
     border-width: thin;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     font-family:'Raleway', sans-serif;
 }
 
 #button3:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s;
+    transition: 0.1s;
+}
+
+#profilePic{
+    position: absolute;
+    width: 120px;
+    top: 85px;
+    left: 145px;
 }
 
 #button4{
@@ -91,7 +113,7 @@ html, body{
 
 #button4:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #button5{
@@ -107,7 +129,7 @@ html, body{
 
 #button5:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #button6{
@@ -119,9 +141,21 @@ html, body{
     background-color: rgb(255, 179, 134);
     border-style: solid;
     border-width: thin;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Raleway', sans-serif;
 }
 
 #button6:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.3s;
+    transition: 0.1s;
+}
+
+
+
+#settingsCog{
+    position: absolute;
+    width: 130px;
+    top: 80px;
+    left: 140px;
 }
