@@ -1,7 +1,5 @@
-/* var test = "test";
+var month = "July"
 
-if (test = "test"){
-    alert("test is test");
-}
+document.getElementById("h1").innerHTML = "July";
 
- */
+

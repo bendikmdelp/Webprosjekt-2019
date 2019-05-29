@@ -1,6 +1,14 @@
-#header {
-    padding: 10px;
-    text-align: center;
-    background: red;
-    height: 40px;
+body{
+    margin: 0;
+}
+
+#calendar-container {
+    height: auto;
+    backgorund: red;
+    border: 2px red solid;
+}
+#weekdays-container{
+    height: auto;
+    backgorund: red;
+    border: 2px red solid;
 }
