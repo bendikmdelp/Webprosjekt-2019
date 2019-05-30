@@ -1,29 +1,15 @@
-
-p{
-    color:white;
-    font-size:22px;
-    font-family:verdana;
-    position:absolute;
-    z-index:1;
-    text-align:center;
-    left:400px;
-    top:150px;
-    
-}
-
-h1{
-    color:white;
-    font-size:60px;
-    text-align: center;
-    
-}
-
-body{
+html, body{
     height: 1080px;
     width: 1920px;
-    position: relative;
-    background-color: blue;
     margin: 0px;
+}
+
+#mainContainer{
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(32, 19, 221);
 }
 
 #header{
@@ -39,11 +25,10 @@ body{
     position: absolute;
     border: 1px solid black;
     height: 972px;
-    width: 1729px;
+    width: 1670px;
     background-color: rgb(247, 107, 107);
     top: 98px;
-    left:250px;
-    z-index: 0;
+    left:230px;
 }
 
 #home{
@@ -85,51 +70,3 @@ body{
     font-size: 60;
     color: white;
 }
-
- #circle {
-    position:absolute;
-    width: 210px;
-    height: 210px;
-    border-radius:210px;
-    background: white;
-    bottom:95px;;
-    left:300px;
-    z-index:1;
-    box-shadow:-50px -50px -50px grey;
-}
-
-.circle:after{
-    content:'';
-    padding-bottom:100%;
-    display:block; 
-}
-
-span{
-    position:absolute;
-    top:50%;
-    margin-left:15px;
-    font-size:25px;
-    color:black;
-}
-
-#circle2 {
-    position:absolute;
-      width:210px;
-      height: 210px;
-      border-radius: 210px;
-      background: white;
-      bottom:95px;
-      left:900px;
-    }
-#circle3{
-     position:absolute;
-      width: 210px;
-      height: 210px;
-      border-radius: 210px;
-      background: white;
-      bottom:95px;
-      left:1500px;
-    }
-
-
-
