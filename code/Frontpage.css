@@ -101,7 +101,7 @@ html, body{
     left: 140px;
 }
 
-#button4{
+#myBtn{
     left: 200px;
     top: 650px;
     height: 250px;
@@ -112,7 +112,7 @@ html, body{
     border-width: thin;
 }
 
-#button4:hover{
+#myBtn:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
     transition: 0.1s;
 }
@@ -142,16 +142,20 @@ html, body{
     background-color: rgb(255, 179, 134);
     border-style: solid;
     border-width: thin;
-    text-align: center;
     font-size: 60px;
     font-family:'Raleway', sans-serif;
+}
+
+#buttonText{
+    position: absolute;
+    top: 10px;
+    left: 90px;
 }
 
 #button6:hover{
     filter: drop-shadow(30px 10px 1px #4444dd);
     transition: 0.1s;
 }
-
 
 
 #settingsCog{
