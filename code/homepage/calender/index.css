@@ -1,0 +1,10 @@
+.body{
+    background-color: grey;
+}
+
+.main-container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid red;
+}
