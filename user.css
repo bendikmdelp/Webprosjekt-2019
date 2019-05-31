@@ -1,0 +1,152 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.heading::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 70%;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: coloumn;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.card-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    z-index: 999;
+    border: 4px solid #ebeef8;
+    
+}
+
+.card h1{
+    font-size: 30px;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+.btn{
+    padding: 10px 10px;
+    background-color: #445ae3;
+    border-radius: 60px;
+    margin: 4px 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 15px;
+    transition: all .5s;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 4px rgba(0,0,0,.2);
+    
+}
+
+.btn:active{
+    transform: translateY(0);
+    box-shadow: none;
+    
+}
+
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 0;
+    margin-top: 6px;
+    border-top: 3px solid rgba(0,0,0.1);
+}
+
+.social-media i{
+    font-size: 10px;
+    transition: color .5s;
+}
+
+.fa-facebook-square{
+    color:#3b5999;
+}
+
+.fa-twitter-square{
+    color: #55acee;
+}
+
+.fa-instagram{
+    color: #e6683c;
+}
+
+.fa-google-plus-square{
+    color: #dd4b39; 
+}
+
+.fa-facebook-:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-google-plus:hover{
+    color: #45e19f;
+}
+
+
+  
