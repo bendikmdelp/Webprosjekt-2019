@@ -1,37 +1,38 @@
 function addToIdea(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
-    var input = prompt("Enter card name");
+    var cardName=document.getElementById("cardNameIdea").value;
+    //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    var textNode =document.createTextNode(input);
+    var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("ideaList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
-    cardNameAtt.value=input;
+    cardNameAtt.value=cardName;
     cardListElement.setAttributeNode(cardNameAtt);
-    var description = prompt("Add a description");
-    if(description!=null){
-        var descriptionItem=document.createElement("li");
-        var descriptionNode=document.createTextNode(description);
-        var desNameAtt = document.createAttribute("id");
-        desNameAtt.value=Math.random;
-        descriptionItem.appendChild(descriptionNode);
-        cardList.appendChild(descriptionItem);
-        descriptionItem.setAttributeNode(desNameAtt);
-    }
+    var description = document.createElement("textarea");
+    description.setAttribute("type","text");
+    description.setAttribute("value", "add a description");
+    var descriptionItem=document.createElement("li");
+    descriptionItem.appendChild(description);
+    description.style.height="100px";
+    cardList.appendChild(descriptionItem);
+
+    var desNameAtt = document.createAttribute("id");
+    desNameAtt.value=Math.random;
+    descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = prompt("Add users to project, seperate by comma");
-    if(users!=null){
-        var userItem=document.createElement("li");
-        var userNode=document.createTextNode(users);
-        var usrNameAtt = document.createAttribute("id");
-        usrNameAtt.value=Math.random;
-        userItem.appendChild(userNode);
-        cardList.appendChild(userItem);
-        userItem.setAttributeNode(usrNameAtt);
-    }
+    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var userItem=document.createElement("li");
+    var userNode=document.createTextNode(users);
+    var usrNameAtt = document.createAttribute("id");
+    usrNameAtt.value=Math.random;
+    userItem.appendChild(userNode);
+    cardList.appendChild(userItem);
+    userItem.setAttributeNode(usrNameAtt);
+    
     cardList.style.border="1px solid black";
     
 }
@@ -46,87 +47,116 @@ document.addEventListener('click', function(e) {
 function addToDoList(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
+    var cardName=document.getElementById("cardNameTodo").value;
+    //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    var input = prompt("Enter card name");
-    var textNode =document.createTextNode(input);
+    var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("todoList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
-    var description = prompt("Add a description");
-    if(description!=null){
-        var descriptionItem=document.createElement("li");
-        var descriptionNode=document.createTextNode(description);
-        descriptionItem.appendChild(descriptionNode);
-        cardList.appendChild(descriptionItem);
-    }
+    var cardNameAtt=document.createAttribute("id");
+    cardNameAtt.value=cardName;
+    cardListElement.setAttributeNode(cardNameAtt);
+    var description = document.createElement("textarea");
+    description.setAttribute("type","text");
+    description.setAttribute("value", "add a description");
+    var descriptionItem=document.createElement("li");
+    descriptionItem.appendChild(description);
+    description.style.height="100px";
+    cardList.appendChild(descriptionItem);
+
+    var desNameAtt = document.createAttribute("id");
+    desNameAtt.value=Math.random;
+    descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = prompt("Add users to project, seperate by comma");
-    if(users!=null){
-        var userItem=document.createElement("li");
-        var userNode=document.createTextNode(users);
-        userItem.appendChild(userNode);
-        cardList.appendChild(userItem);
-    }
+    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var userItem=document.createElement("li");
+    var userNode=document.createTextNode(users);
+    var usrNameAtt = document.createAttribute("id");
+    usrNameAtt.value=Math.random;
+    userItem.appendChild(userNode);
+    cardList.appendChild(userItem);
+    userItem.setAttributeNode(usrNameAtt);
+    
     cardList.style.border="1px solid black";
-    
+     
 }
 
 function addToProgress(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
+    var cardName=document.getElementById("cardNameProgress").value;
+    //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    var input = prompt("Enter card name");
-    var textNode =document.createTextNode(input);
+    var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("progressList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
-    var description = prompt("Add a description");
-    if(description!=null){
-        var descriptionItem=document.createElement("li");
-        var descriptionNode=document.createTextNode(description);
-        descriptionItem.appendChild(descriptionNode);
-        cardList.appendChild(descriptionItem);
-    }
+    var cardNameAtt=document.createAttribute("id");
+    cardNameAtt.value=cardName;
+    cardListElement.setAttributeNode(cardNameAtt);
+    var description = document.createElement("textarea");
+    description.setAttribute("type","text");
+    description.setAttribute("value", "add a description");
+    var descriptionItem=document.createElement("li");
+    descriptionItem.appendChild(description);
+    description.style.height="100px";
+    cardList.appendChild(descriptionItem);
+
+    var desNameAtt = document.createAttribute("id");
+    desNameAtt.value=Math.random;
+    descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = prompt("Add users to project, seperate by comma");
-    if(users!=null){
-        var userItem=document.createElement("li");
-        var userNode=document.createTextNode(users);
-        userItem.appendChild(userNode);
-        cardList.appendChild(userItem);
-    }
+    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var userItem=document.createElement("li");
+    var userNode=document.createTextNode(users);
+    var usrNameAtt = document.createAttribute("id");
+    usrNameAtt.value=Math.random;
+    userItem.appendChild(userNode);
+    cardList.appendChild(userItem);
+    userItem.setAttributeNode(usrNameAtt);
+    
     cardList.style.border="1px solid black";
- 
+   
 }
 
 function addToFinished(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
+    var cardName=document.getElementById("cardNameFinished").value;
+    //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    var input = prompt("Enter card name");
-    var textNode =document.createTextNode(input);
+    var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("finishedList").appendChild(card);
+    document.getElementById("finisedList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
-    var description = prompt("Add a description");
-    if(description!=null){
-        var descriptionItem=document.createElement("li");
-        var descriptionNode=document.createTextNode(description);
-        descriptionItem.appendChild(descriptionNode);
-        cardList.appendChild(descriptionItem);
-    }
-    
-    var users = prompt("Add users to project, seperate by comma");
-    if(users!=null){
-        var userItem=document.createElement("li");
-        var userNode=document.createTextNode(users);
-        userItem.appendChild(userNode);
-        cardList.appendChild(userItem);
-    }
-    cardList.style.border="1px solid black";
- 
-}
+    var cardNameAtt=document.createAttribute("id");
+    cardNameAtt.value=cardName;
+    cardListElement.setAttributeNode(cardNameAtt);
+    var description = document.createElement("textarea");
+    description.setAttribute("type","text");
+    description.setAttribute("value", "add a description");
+    var descriptionItem=document.createElement("li");
+    descriptionItem.appendChild(description);
+    description.style.height="100px";
+    cardList.appendChild(descriptionItem);
 
+    var desNameAtt = document.createAttribute("id");
+    desNameAtt.value=Math.random;
+    descriptionItem.setAttributeNode(desNameAtt);
+    
+    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var userItem=document.createElement("li");
+    var userNode=document.createTextNode(users);
+    var usrNameAtt = document.createAttribute("id");
+    usrNameAtt.value=Math.random;
+    userItem.appendChild(userNode);
+    cardList.appendChild(userItem);
+    userItem.setAttributeNode(usrNameAtt);
+    
+    cardList.style.border="1px solid black";
+   
+}
