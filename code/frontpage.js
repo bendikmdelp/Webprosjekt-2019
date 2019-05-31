@@ -1,4 +1,3 @@
-
-document.getElementById("button6").onclick = function () {
-    location.href = "settings.html";
-};
+function link(){
+    window.location.href = "settings.html";
+}
