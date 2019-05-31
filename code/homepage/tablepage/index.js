@@ -2,8 +2,15 @@ function addToIdea(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameIdea").value;
+   
     //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
+    card.setAttribute("id", cardName);
+    card.setAttribute("draggable",true);
+    card.setAttribute("ondragstart","drag(event)");
+    card.ondragstart=function(){drag(event)};
+    card.style.fontSize="40";
+    
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("ideaList").appendChild(card);
@@ -44,19 +51,61 @@ document.addEventListener('click', function(e) {
     }
 }, false);
 
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+    ev.style.height="50%";
+    ev.style.width="50%";
+}
+
+function dropTodo(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    document.getElementById("todoList").appendChild(document.getElementById(data));
+
+}
+function dropIdea(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    document.getElementById("ideaList").appendChild(document.getElementById(data));
+
+}
+function dropProgress(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    document.getElementById("progressList").appendChild(document.getElementById(data));
+
+}
+function dropFinished(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    document.getElementById("finishedList").appendChild(document.getElementById(data));
+
+}
+
+
 function addToDoList(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameTodo").value;
-    //var input = document.createElement("input").innerHTML="enter Card name";
+   
     var cardListElement=document.createElement("li");
+    card.setAttribute("id", cardName);
+    card.setAttribute("draggable",true);
+    card.setAttribute("ondragstart","drag(event)");
+    card.ondragstart=function(){drag(event)};
+    card.style.fontSize="40";
+    
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("todoList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
-    cardNameAtt.value=cardName;
+    cardNameAtt.value=Math.random;
     cardListElement.setAttributeNode(cardNameAtt);
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
@@ -86,9 +135,15 @@ function addToDoList(){
 function addToProgress(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
-    var cardName=document.getElementById("cardNameProgress").value;
-    //var input = document.createElement("input").innerHTML="enter Card name";
+    var cardName=document.getElementById("cardNameprogress").value;
+   
     var cardListElement=document.createElement("li");
+    card.setAttribute("id", cardName);
+    card.setAttribute("draggable",true);
+    card.setAttribute("ondragstart","drag(event)");
+    card.ondragstart=function(){drag(event)};
+    card.style.fontSize="40";
+    
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("progressList").appendChild(card);
@@ -119,22 +174,29 @@ function addToProgress(){
     userItem.setAttributeNode(usrNameAtt);
     
     cardList.style.border="1px solid black";
-   
+    
 }
 
 function addToFinished(){
     var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameFinished").value;
+   
     //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
+    card.setAttribute("id", cardName);
+    card.setAttribute("draggable",true);
+    card.setAttribute("ondragstart","drag(event)");
+    card.ondragstart=function(){drag(event)};
+    card.style.fontSize="40";
+    
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("finisedList").appendChild(card);
+    document.getElementById("finishedList").appendChild(card);
     card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
-    cardNameAtt.value=cardName;
+    cardNameAtt.value=Math.random;
     cardListElement.setAttributeNode(cardNameAtt);
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
@@ -158,5 +220,5 @@ function addToFinished(){
     userItem.setAttributeNode(usrNameAtt);
     
     cardList.style.border="1px solid black";
-   
+    
 }
