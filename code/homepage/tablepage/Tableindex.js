@@ -26,6 +26,18 @@ let tasks=[
     }
 ];
 
+let team = [
+
+    { id: 1, name: "Marge" },
+
+    { id: 2, name: "Lisa" },
+
+    { id: 3, name: "Homer" },
+
+    { id: 4, name: "Maggie" },
+
+];
+
 window.onload = function addToTask(){
     for(var i=0; i<=tasks.length; i++){
         var card=document.createElement("li");
@@ -59,7 +71,7 @@ window.onload = function addToTask(){
         descriptionItem.innerHTML=tasks[i].description;
         cardList.appendChild(descriptionItem);
         var desNameAtt = document.createAttribute("id");
-        desNameAtt.value=Math.random;
+        desNameAtt.value="descrption";
         descriptionItem.setAttributeNode(desNameAtt);
         descriptionItem.style.fontSize="20";
 
@@ -70,26 +82,33 @@ window.onload = function addToTask(){
         dueDate.innerHTML=DueDate;
         cardList.appendChild(dueDate);
         dueDate.style.fontSize="30";
+        
+        var assigned = "To ble completed by: "+team[i].name;
+        var assignedList=document.createElement("li");
+        assignedList.innerHTML=assigned;
+        cardList.appendChild(assignedList);
+        assignedList.style.fontSize="30";
     }
 }
 
 
 function addToIdea(){
-    var card=document.createElement("li");
+    //var card=document.createElement("li");
+    //card.setAttribute("id", Math.random);
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameIdea").value;
     var cardListElement=document.createElement("li");
     
-    card.setAttribute("id", cardName);
-    card.setAttribute("draggable",true);
-    card.setAttribute("ondragstart","drag(event)");
-    card.ondragstart=function(){drag(event)};
-    card.style.fontSize="40";  
+    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("draggable",true);
+    cardList.setAttribute("ondragstart","drag(event)");
+    cardList.ondragstart=function(){drag(event)};
+    cardList.style.fontSize="30";  
     
-    var textNode =document.createTextNode(cardName);
+    var textNode =document.createTextNode("Name: "+cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("ideaList").appendChild(card);
-    card.appendChild(cardList);
+    document.getElementById("ideaList").appendChild(cardList);
+    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=cardName;
@@ -97,18 +116,18 @@ function addToIdea(){
     
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
-    description.setAttribute("value", "add a description");
+    description.setAttribute("placeholder", "add a description");
     var descriptionItem=document.createElement("li");
     descriptionItem.appendChild(description);
     description.style.height="100px";
     cardList.appendChild(descriptionItem);
-    var desNameAtt = document.createAttribute("id");
+    /*var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
-    descriptionItem.setAttributeNode(desNameAtt); 
+    descriptionItem.setAttributeNode(desNameAtt);*/ 
     
-    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode(users);
+    var userNode=document.createTextNode("Assigned to: " + users);
     var usrNameAtt = document.createAttribute("id");
     usrNameAtt.value=Math.random;
     userItem.appendChild(userNode);
@@ -120,7 +139,7 @@ function addToIdea(){
 
 document.addEventListener('click', function(e) {
     var element= document.getElementById(e.target.id);
-    if(element.tagName == "LI"){
+    if(element.tagName === "LI"){
     var newData = prompt("enter new data");   document.getElementById(e.target.id).innerHTML=newData;
     }
 }, false);
@@ -162,28 +181,28 @@ function dropFinished(ev) {
 
 
 function addToDoList(){
-    var card=document.createElement("li");
+    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameTodo").value;
    
     var cardListElement=document.createElement("li");
-    card.setAttribute("id", cardName);
-    card.setAttribute("draggable",true);
-    card.setAttribute("ondragstart","drag(event)");
-    card.ondragstart=function(){drag(event)};
-    card.style.fontSize="40";
+    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("draggable",true);
+    cardList.setAttribute("ondragstart","drag(event)");
+    cardList.ondragstart=function(){drag(event)};
+    cardList.style.fontSize="30"; 
     
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("todoList").appendChild(card);
-    card.appendChild(cardList);
+    document.getElementById("todoList").appendChild(cardList);
+    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=Math.random;
     cardListElement.setAttributeNode(cardNameAtt);
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
-    description.setAttribute("value", "add a description");
+    description.setAttribute("placeholder", "add a description");
     var descriptionItem=document.createElement("li");
     descriptionItem.appendChild(description);
     description.style.height="100px";
@@ -193,9 +212,9 @@ function addToDoList(){
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode(users);
+    var userNode=document.createTextNode("Assigned to: " + users);
     var usrNameAtt = document.createAttribute("id");
     usrNameAtt.value=Math.random;
     userItem.appendChild(userNode);
@@ -207,28 +226,28 @@ function addToDoList(){
 }
 
 function addToProgress(){
-    var card=document.createElement("li");
+    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameprogress").value;
    
     var cardListElement=document.createElement("li");
-    card.setAttribute("id", cardName);
-    card.setAttribute("draggable",true);
-    card.setAttribute("ondragstart","drag(event)");
-    card.ondragstart=function(){drag(event)};
-    card.style.fontSize="40";
+    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("draggable",true);
+    cardList.setAttribute("ondragstart","drag(event)");
+    cardList.ondragstart=function(){drag(event)};
+    cardList.style.fontSize="30"; 
     
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("progressList").appendChild(card);
-    card.appendChild(cardList);
+    document.getElementById("progressList").appendChild(cardList);
+    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=cardName;
     cardListElement.setAttributeNode(cardNameAtt);
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
-    description.setAttribute("value", "add a description");
+    description.setAttribute("placeholder", "add a description");
     var descriptionItem=document.createElement("li");
     descriptionItem.appendChild(description);
     description.style.height="100px";
@@ -238,9 +257,9 @@ function addToProgress(){
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode(users);
+    var userNode=document.createTextNode("Assigned to: " + users);
     var usrNameAtt = document.createAttribute("id");
     usrNameAtt.value=Math.random;
     userItem.appendChild(userNode);
@@ -252,29 +271,29 @@ function addToProgress(){
 }
 
 function addToFinished(){
-    var card=document.createElement("li");
+    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameFinished").value;
    
     //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    card.setAttribute("id", cardName);
-    card.setAttribute("draggable",true);
-    card.setAttribute("ondragstart","drag(event)");
-    card.ondragstart=function(){drag(event)};
-    card.style.fontSize="40";
+    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("draggable",true);
+    cardList.setAttribute("ondragstart","drag(event)");
+    cardList.ondragstart=function(){drag(event)};
+    cardList.style.fontSize="30"; 
     
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
-    document.getElementById("finishedList").appendChild(card);
-    card.appendChild(cardList);
+    document.getElementById("finishedList").appendChild(cardList);
+    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=Math.random;
     cardListElement.setAttributeNode(cardNameAtt);
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
-    description.setAttribute("value", "add a description");
+    description.setAttribute("placeholder", "add a description");
     var descriptionItem=document.createElement("li");
     descriptionItem.appendChild(description);
     description.style.height="100px";
@@ -284,9 +303,9 @@ function addToFinished(){
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
     
-    var users = document.createElement("p").innerHTML="drag to add users to card";
+    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode(users);
+    var userNode=document.createTextNode("Assigned to: " + users);
     var usrNameAtt = document.createAttribute("id");
     usrNameAtt.value=Math.random;
     userItem.appendChild(userNode);
