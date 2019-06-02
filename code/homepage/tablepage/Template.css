@@ -82,6 +82,9 @@ body{
     overflow-y: auto;
 
 }
+.list{
+    top: 80px;
+}
 
 #ideasText{
     position: absolute;
@@ -118,20 +121,20 @@ body{
 
 #ideaList{
     position: absolute;
-    top: 150px;
+    
     font-size: 30;
 }
 #todoList{
     position: absolute;
-    top: 150px;
+    
     font-size: 30;
 }#progressList{
     position: absolute;
-    top: 150px;
+    
     font-size: 30;
 }#finishedList{
     position: absolute;
-    top: 150px;
+   ;
     font-size: 30;
 }
 
