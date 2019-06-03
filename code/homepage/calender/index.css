@@ -1,55 +1,68 @@
-body{
-    height: 1080px;
-    width: 1920px;
-    background-color: blue;
-    margin: 0px;
+.main-container {
+    max-width: 1500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
 }
 
-#header{
-    position: absolute;
-    left:864px;
-    height: 108px;
-    top:0;
-    font-size: 80;
-    color:white;
+.calendar-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: .25rem
+}
+.calendar-head {
+    position:relative;
+    left: 50%;
+    padding: 5px;
+    margin-bottom: 0;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    height: 300px;
 }
 
-#info{
-    position: absolute;
-    height: 98px;
-    width: 192px;
-    top:198px;
-    background-color: black;
-    font-size: 65;
-    color: white;
+.table-bordered, thead, td, th {
+    padding: 5px;
+    border: 1px solid #dee2e6;
 }
 
-#calendar{
-    position: absolute;
-    height: 108px;
-    width: 192px;
-    top:274px;
-    background-color: black;
-    font-size: 50;
-    color: white;
+.calendar-foot {
+    display: flex;
+    align-items: center
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: .25rem;
+    flex: 1px;
+}
+.btn-outline {
+    background-color: transparent;
+    border-color: #007bff
 }
 
-#home{
-    position: absolute;
-    height: 108px;
-    width: 192px;
-    top:90px;
-    background-color: black;
-    font-size: 70;
-    color: white;
-}
-#profile{
-    position: absolute;
-    height: 108px;
-    width: 192px;
-    top:372px;
-    background-color: black;
-    font-size: 60;
-    color: white;
+.btn-outline:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
 }
 
+.dropdown {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
