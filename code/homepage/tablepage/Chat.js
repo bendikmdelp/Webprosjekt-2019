@@ -17,4 +17,5 @@ function sendChat(){
     chatItem.appendChild(chatNode);
     document.getElementById("chatList").appendChild(chatItem);
     chatItem.style.zIndex="5";
+    document.getElementById("chatInput").setAttribute("placeholder", "Enter message");
 }
