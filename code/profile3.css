@@ -1,0 +1,100 @@
+body{
+    height: 1080px;
+    width: 1920px;
+    background-color: blue;
+    margin: 0px;
+}
+
+#p3_header{
+    position: absolute;
+    left:864px;
+    height: 108px;
+    top:0;
+    font-size: 80;
+    color:white;
+}
+
+#p3_mainStage{
+    position: absolute;
+    border: 1px solid black;
+    height: 972px;
+    width: 1729px;
+    background-color: #f1f1f1;
+    top: 98px;
+    left:192px;
+    z-index: 2;
+    box-shadow: -5px -5px 5px 5px black;
+    padding:20px;
+}
+
+#p3_profile{
+    position: absolute;
+    height: 68px;
+    width: 192px;
+    top:372px;
+    background-color: black;
+    font-size: 60;
+    color: white;
+}
+#p3_home{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:90px;
+    background-color: black;
+    font-size: 70;
+    color: white;
+}
+#p3_info{
+    position: absolute;
+    height: 98px;
+    width: 192px;
+    top:198px;
+    background-color: black;
+    font-size: 65   ;
+    color: white;
+}
+
+
+#calendar{
+    position: absolute;
+    height: 78px;
+    width: 192px;
+    top:274px;
+    background-color: black;
+    font-size: 50;
+    color: white;
+}
+
+--user
+
+.p3_profile-card{
+    width: 400px;
+    margin: auto;
+    background: : #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+.p3_image-container{
+    position: relative;
+    
+}
+
+.info3{
+    color: #4b4fe2;
+    margin-right: 16px;
+    
+}
+
+.p3_title{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.p3_name{
+    position:relative; 
+    left: 20px;
+    color:  black;
+    top: 25px;
+}
