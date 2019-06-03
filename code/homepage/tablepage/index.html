@@ -1,7 +1,11 @@
 <head>
     <link href="Template.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
-    <script src="Tableindex.js"></script>
+    <script src="preCodedData.js"></script>
+    <script src="CreatingCards.js"></script>
+    <script src="DragDrop.js"></script>
+    <script src="Chat.js"></script>
+    <script src="Changingdata.js"></script>
 </head>
 <body>
     <div id="header">Header</div>
@@ -45,9 +49,11 @@
         <div id="chatbox">
             <button type="button" id=chatBtn onclick="showChat()">show chat</button>
             <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
-            <ul id="chatList">
-            </ul>
-            <div id="chatArea"></div>
+
+            <div id="chatArea">
+                <ul id="chatList">
+                </ul>
+            </div>
             <input type="text" id="chatInput" placeholder="Enter message">
         </div>
         
