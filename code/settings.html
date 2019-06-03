@@ -1,6 +1,7 @@
 <html>
 	<head>
         <link href ="settings.css" rel ="stylesheet">
+        <script src="settings.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	</head>
     
@@ -14,11 +15,22 @@
 
         <div id="mainStage"></div>
         
-        <a href="frontpage.html"><div id="home">Home</div></a>
-        <div id="table">Table</div>
-        <div id="profile">Profile</div>
-        <div id="calendar">Calendar</div>
-        
+        <button id="home" onclick="link()">
+            <a id="homeText">Home</a>
+        </button>
+
+        <button id="table" onclick="link()">
+            <a id="homeText">Table</a>
+        </button>
+
+        <button id="profile" onclick="link()">
+            <a id="homeText">Profile</a>
+        </button>
+
+        <button id="calendar" onclick="link()">
+            <a id="homeText">Calendar</a>
+        </button>
+
     </div>
 
     </body>
