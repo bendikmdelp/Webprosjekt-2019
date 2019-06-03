@@ -92,14 +92,3 @@ window.onload = function addToTask(){
         assignedList.style.fontSize="30";
     }
 }
-
-
-
-
-
-
-
-
-
-
-

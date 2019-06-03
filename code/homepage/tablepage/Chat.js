@@ -16,4 +16,5 @@ function sendChat(){
     var chatNode=document.createTextNode(message);
     chatItem.appendChild(chatNode);
     document.getElementById("chatList").appendChild(chatItem);
+    chatItem.style.zIndex="5";
 }
