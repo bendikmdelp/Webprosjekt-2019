@@ -26,7 +26,10 @@ function addToIdea(){
     var descriptionItem=document.createElement("li");
     descriptionItem.appendChild(description);
     description.style.height="100px";
+    description.style.fontSize="25";
+    description.style.width="180px";
     cardList.appendChild(descriptionItem);
+    
     /*var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);*/ 
@@ -79,6 +82,8 @@ function addToDoList(){
     descriptionItem.appendChild(description);
     description.style.height="100px";
     cardList.appendChild(descriptionItem);
+    description.style.fontSize="25";
+    description.style.width="180px";
 
     var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
@@ -132,6 +137,8 @@ function addToProgress(){
     descriptionItem.appendChild(description);
     description.style.height="100px";
     cardList.appendChild(descriptionItem);
+    description.style.fontSize="25";
+    description.style.width="180px";
 
     var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
@@ -186,6 +193,8 @@ function addToFinished(){
     descriptionItem.appendChild(description);
     description.style.height="100px";
     cardList.appendChild(descriptionItem);
+    description.style.fontSize="25";
+    description.style.width="180px";
 
     var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
