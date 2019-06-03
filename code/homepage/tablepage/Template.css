@@ -27,6 +27,7 @@ body{
     left:192px;
     z-index: 2;
     box-shadow: -5px -5px 5px 5px black;
+    overflow: hidden;
 }
 
 .cardName{
@@ -181,4 +182,43 @@ body{
     font-size: 80;
     text-align: center;
     overflow-y: auto;
+}
+
+#chatbox{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    bottom: -200px;
+    left: 0;
+}
+
+#chatBtn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -50px;
+}
+
+#chatArea{
+    position: absolute;
+    height: 160px;
+    width: 180px;
+    border: 1px solid black;
+    left: 10px;
+    top:10px;
+    overflow-y: auto;
+}
+
+#chatInput{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+}
+#sendBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
 }
