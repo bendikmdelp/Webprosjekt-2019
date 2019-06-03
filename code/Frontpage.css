@@ -4,10 +4,12 @@ html, body{
     margin: 0;
 }
 
-#header{
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: underline;
+#daiqi{
+    width: 500px;
+    height: 200px;
+    left: 700px;
+    top: 60px;
+    position: absolute;
 }
 
 #startContainer{
