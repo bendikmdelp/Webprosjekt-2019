@@ -1,22 +1,55 @@
-.body{
-    background-color: grey;
-}
-
-.main-container {
-    position: absolute;
-    width: 1920px;
+body{
     height: 1080px;
-    border: red 1px dashed;
+    width: 1920px;
+    background-color: blue;
+    margin: 0px;
 }
 
-.date-container {
-    height: 900px;
-    width: 890px;
-    border: white 1px solid;
- }
-.date-container > div{
+#header{
     position: absolute;
-    width: 300px;
-    border: black 1px solid;
-    height: 150px;
+    left:864px;
+    height: 108px;
+    top:0;
+    font-size: 80;
+    color:white;
 }
+
+#info{
+    position: absolute;
+    height: 98px;
+    width: 192px;
+    top:198px;
+    background-color: black;
+    font-size: 65;
+    color: white;
+}
+
+#calendar{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:274px;
+    background-color: black;
+    font-size: 50;
+    color: white;
+}
+
+#home{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:90px;
+    background-color: black;
+    font-size: 70;
+    color: white;
+}
+#profile{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:372px;
+    background-color: black;
+    font-size: 60;
+    color: white;
+}
+
