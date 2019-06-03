@@ -67,11 +67,12 @@ window.onload = function addToTask(){
         var cardNameAtt=document.createAttribute("id");
         cardNameAtt.value=tasks[i].id;
         cardListElement.setAttributeNode(cardNameAtt);
+        
         var descriptionItem=document.createElement("li");
         descriptionItem.innerHTML=tasks[i].description;
         cardList.appendChild(descriptionItem);
         var desNameAtt = document.createAttribute("id");
-        desNameAtt.value="descrption";
+        desNameAtt.value="descrption"+i;
         descriptionItem.setAttributeNode(desNameAtt);
         descriptionItem.style.fontSize="20";
 

@@ -8,6 +8,7 @@
         <script src="DragDrop.js"></script>
         <script src="Chat.js"></script>
         <script src="Changingdata.js"></script>
+        <script src="Trashcan.js"></script>
         
 	</head>
     
@@ -78,6 +79,11 @@
                 </ul>
             </div>
             <input type="text" id="chatInput" placeholder="Enter message">
+        </div>
+        <button id="showTrash" onclick="showTrashcan()" ondrop="dropFinished(event)" ondragover="allowDrop(event)">Trashcan</button>
+        <div id="trashcan">
+            <ul id="trashList">
+            </ul>        
         </div>
 
     </div>

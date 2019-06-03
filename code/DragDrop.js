@@ -32,3 +32,9 @@ function dropFinished(ev) {
     document.getElementById("finishedList").appendChild(document.getElementById(data));
 
 }
+function dropFinished(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    document.getElementById("trashList").appendChild(document.getElementById(data));
+
+}

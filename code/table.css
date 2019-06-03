@@ -10,6 +10,7 @@ html, body{
     margin: 0;
     position: absolute;
     background-color: rgb(147, 187, 247);
+    overflow: hidden;
 }
 
 #name{
@@ -275,4 +276,22 @@ html, body{
     bottom: 0;
     right: 0;
     width: 60px;
+}
+
+#trashcan{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    overflow-y: auto;
+    background-color: wheat;
+    right: -300px;
+    top: 100px;
+    z-index: 150;
+}
+#showTrash{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    height: 75px;
+    width: 100px;
 }
