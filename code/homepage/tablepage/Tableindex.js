@@ -40,28 +40,28 @@ let team = [
 
 window.onload = function addToTask(){
     for(var i=0; i<=tasks.length; i++){
-        var card=document.createElement("li");
+        //var card=document.createElement("li");
         var cardList=document.createElement("ul");
         var cardListElement=document.createElement("li");
-        card.setAttribute("id", tasks[i].name);
+        cardList.setAttribute("id", tasks[i].name);
        
         if(tasks[i].id===1){
-            document.getElementById("ideaList").appendChild(card);
+            document.getElementById("ideaList").appendChild(cardList);
         }
          else if(tasks[i].id===2){
-            document.getElementById("todoList").appendChild(card);
+            document.getElementById("todoList").appendChild(cardList);
         }else if(tasks[i].id===3){
-            document.getElementById("progressList").appendChild(card);
+            document.getElementById("progressList").appendChild(cardList);
         }else if(tasks[i].id===4){
-            document.getElementById("finishedList").appendChild(card);
+            document.getElementById("finishedList").appendChild(cardList);
         }
-        card.setAttribute("draggable", true);
-        card.setAttribute("ondragstart","drag(event)");
-        card.ondragstart=function(){drag(event)};
+        cardList.setAttribute("draggable", true);
+        cardList.setAttribute("ondragstart","drag(event)");
+        cardList.ondragstart=function(){drag(event)};
         cardListElement.style.fontSize="30";
         cardListElement.innerHTML=tasks[i].name;
         
-        card.appendChild(cardList);
+        //card.appendChild(cardList);
         cardList.appendChild(cardListElement);
         
         var cardNameAtt=document.createAttribute("id");
@@ -81,12 +81,14 @@ window.onload = function addToTask(){
         var dueDate=document.createElement("li");
         dueDate.innerHTML=DueDate;
         cardList.appendChild(dueDate);
+        dueDate.setAttribute("id", "due"+i);
         dueDate.style.fontSize="30";
         
-        var assigned = "To ble completed by: "+team[i].name;
+        var assigned = "Assigned to: "+team[i].name;
         var assignedList=document.createElement("li");
         assignedList.innerHTML=assigned;
         cardList.appendChild(assignedList);
+        assignedList.setAttribute("id", "users"+i);
         assignedList.style.fontSize="30";
     }
 }
@@ -124,6 +126,14 @@ function addToIdea(){
     /*var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);*/ 
+    
+    var dueDate = prompt("Add a due date (YYYY-MM-DD)");
+    var dueDateItem = document.createElement("li");
+    var dueDateNode = document.createTextNode("Must be done by: "+ dueDate);
+    dueDateItem.setAttribute("id", Math.random);
+    dueDateItem.appendChild(dueDateNode);
+    cardList.appendChild(dueDateItem);
+    
     
     var users = prompt("Add users to task")
     var userItem=document.createElement("li");
@@ -212,6 +222,13 @@ function addToDoList(){
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
     
+    var dueDate = prompt("Add a due date (YYYY-MM-DD)");
+    var dueDateItem = document.createElement("li");
+    var dueDateNode = document.createTextNode("Must be done by: "+ dueDate);
+    dueDateItem.setAttribute("id", Math.random);
+    dueDateItem.appendChild(dueDateNode);
+    cardList.appendChild(dueDateItem);
+    
     var users = prompt("Add users to task")
     var userItem=document.createElement("li");
     var userNode=document.createTextNode("Assigned to: " + users);
@@ -256,6 +273,13 @@ function addToProgress(){
     var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
+    
+    var dueDate = prompt("Add a due date (YYYY-MM-DD)");
+    var dueDateItem = document.createElement("li");
+    var dueDateNode = document.createTextNode("Must be done by: "+ dueDate);
+    dueDateItem.setAttribute("id", Math.random);
+    dueDateItem.appendChild(dueDateNode);
+    cardList.appendChild(dueDateItem);
     
     var users = prompt("Add users to task")
     var userItem=document.createElement("li");
@@ -302,6 +326,13 @@ function addToFinished(){
     var desNameAtt = document.createAttribute("id");
     desNameAtt.value=Math.random;
     descriptionItem.setAttributeNode(desNameAtt);
+
+    var dueDate = prompt("Add a due date (YYYY-MM-DD)");
+    var dueDateItem = document.createElement("li");
+    var dueDateNode = document.createTextNode("Must be done by: "+ dueDate);
+    dueDateItem.setAttribute("id", Math.random);
+    dueDateItem.appendChild(dueDateNode);
+    cardList.appendChild(dueDateItem);
     
     var users = prompt("Add users to task")
     var userItem=document.createElement("li");
