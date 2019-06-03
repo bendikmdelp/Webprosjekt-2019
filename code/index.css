@@ -123,12 +123,9 @@ body {
     content: '';
     padding-bottom: 100%;
     display: block;
-}
 
-.circle:after{
-    content:'';
-    padding-bottom:100%;
-    display:block;
+
+
 }
 
 /* Felles kode til teksten som står inne i alle sirklene*/
@@ -143,22 +140,6 @@ span {
 
 /*"Help And Service" sirkelen*/
 #circle2 {
-    position:absolute;
-    width:210px;
-    height: 210px;
-    border-radius: 210px;
-    background: white;
-    bottom:95px;
-    left:900px;
-}
-#circle3{
-    position:absolute;
-    width: 210px;
-    height: 210px;
-    border-radius: 210px;
-    background: white;
-    bottom:95px;
-    left:1500px;
     position: absolute;
     width: 210px;
     height: 210px;
@@ -220,7 +201,7 @@ input[type=text] {
     width: 120px;
     border: 2px solid #aaa;
     border-radius: 4px;
-    margin: 8px 0;
+    margin 8px 0;
     outline: none;
     padding: 8px;
     box-sizing: border-box;
@@ -228,6 +209,7 @@ input[type=text] {
     position: absolute;
     bottom: 275px;
     left: 1540px;
+
 }
 
 /* Kode som gjør nummber-boksen blå i kantene når du fokuserer den */
@@ -247,6 +229,7 @@ input[type=text]:focus {
 }
 
 /* Kode for det grønne bruker-tegnet */
+
 .fa-user {
     position: absolute;
     z-index: 1;
