@@ -10,6 +10,6 @@ function linkTable(){
     window.location.href = "table.html";
 }
 
-function linkCalendar(){
-    window.location.href = "Calendar.html";
+function linkSettings(){
+    window.location.href = "settings.html";
 }

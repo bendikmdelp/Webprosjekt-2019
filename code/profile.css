@@ -9,7 +9,7 @@ html, body{
     height: 1080px;
     margin: 0;
     position: absolute;
-    background-color: rgb(247, 220, 147);
+    background-color: rgb(193, 241, 165);
 }
 
 #name{
@@ -97,20 +97,20 @@ html, body{
     transition: 0.1s; 
 }
 
-#profile{
+#settings{
     position: absolute;
     height: 150px;
     width: 200px;
     top:800px;
-    background-color: rgb(193, 241, 165);
+    background-color: rgb(247, 220, 147);
     font-size: 40;
     text-align: center;
     font-family:'Raleway', sans-serif;
     border-style: solid;
-    border-width: thin;
+    border-width: thin; 
 }
 
-#profile:hover{
+#settings:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }

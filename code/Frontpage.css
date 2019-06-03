@@ -13,14 +13,12 @@ html, body{
 #startContainer{
     width: 1920px;
     height: 1080px;
-    background-color: rgb(205, 249, 252);
-    position: absolute; 
-    margin: 0;
+    position: absolute;
     background-image: radial-gradient(rgb(215, 236, 253), rgb(102, 183, 250));
 }
 
 #button1{
-    left: 200px;
+    left: 510px;
     top: 300px;
     height: 250px;
     width: 400px;
@@ -29,17 +27,19 @@ html, body{
     border-style: solid;
     border-width: thin;
     text-align: center;
-}
-
-#button1 a {
     font-size: 60px;
     font-family:'Raleway', sans-serif;
-    vertical-align: middle;
 }
 
 #button1:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
+    filter: drop-shadow(20px 10px 1px #4444dd);
     transition: 0.1s; 
+}
+
+#button1Text{
+    position: absolute;
+    top: 10px;
+    left: 125px;
 }
 
 #tablePic{
@@ -50,7 +50,7 @@ html, body{
 }
 
 #button2{
-    left: 760px;
+    left: 1000px;
     top: 300px;
     height: 250px;
     width: 400px;
@@ -64,8 +64,14 @@ html, body{
 }
 
 #button2:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
+    filter: drop-shadow(20px 10px 1px #4444dd);
     transition: 0.1s;
+}
+
+#button2Text{
+    position: absolute;
+    top: 10px;
+    left: 80px;
 }
 
 #calendarPic{
@@ -76,8 +82,8 @@ html, body{
 }
 
 #button3{
-    left: 1320px;
-    top: 300px;
+    left: 510px;
+    top: 650px;
     height: 250px;
     width: 400px;
     position: absolute;  
@@ -90,8 +96,14 @@ html, body{
 }
 
 #button3:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
+    filter: drop-shadow(20px 10px 1px #4444dd);
     transition: 0.1s;
+}
+
+#button3Text{
+    position: absolute;
+    top: 10px;
+    left: 110px;
 }
 
 #profilePic{
@@ -101,40 +113,8 @@ html, body{
     left: 140px;
 }
 
-#myBtn{
-    left: 200px;
-    top: 650px;
-    height: 250px;
-    width: 400px;
-    position: absolute; 
-    background-color: rgb(248, 255, 148);
-    border-style: solid;
-    border-width: thin;
-}
-
-#myBtn:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.1s;
-}
-
-#button5{
-    left: 760px;
-    top: 650px;
-    height: 250px;
-    width: 400px;
-    position: absolute; 
-    background-color: rgb(255, 157, 242);
-    border-style: solid;
-    border-width: thin;
-}
-
-#button5:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.1s;
-}
-
-#button6{
-    left: 1320px;
+#button4{
+    left: 1000px;
     top: 650px;
     height: 250px;
     width: 400px;
@@ -146,17 +126,16 @@ html, body{
     font-family:'Raleway', sans-serif;
 }
 
-#buttonText{
+#button4:hover{
+    filter: drop-shadow(20px 10px 1px #4444dd);
+    transition: 0.1s;
+}
+
+#button4Text{
     position: absolute;
     top: 10px;
     left: 90px;
 }
-
-#button6:hover{
-    filter: drop-shadow(30px 10px 1px #4444dd);
-    transition: 0.1s;
-}
-
 
 #settingsCog{
     position: absolute;

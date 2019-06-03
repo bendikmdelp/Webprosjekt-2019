@@ -9,7 +9,7 @@ html, body{
     height: 1080px;
     margin: 0;
     position: absolute;
-    background-color: rgb(247, 220, 147);
+    background-color: rgb(247, 159, 147);
 }
 
 #name{
@@ -48,7 +48,7 @@ html, body{
     height: 150px;
     width: 200px;
     top:200px;
-    background-color: rgb(255, 158, 113);
+    background-color: rgb(252, 146, 146);
     font-size: 40;
     text-align: center;
     font-family:'Raleway', sans-serif;
@@ -79,20 +79,20 @@ html, body{
     transition: 0.1s; 
 }
 
-#calendar{
+#settings{
     position: absolute;
     height: 150px;
     width: 200px;
     top: 600px;
-    background-color: rgb(247, 159, 147);
+    background-color: rgb(247, 220, 147);
     font-size: 40;
     text-align: center;
     font-family:'Raleway', sans-serif;
     border-style: solid;
-    border-width: thin;
+    border-width: thin; 
 }
 
-#calendar:hover{
+#settings:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }

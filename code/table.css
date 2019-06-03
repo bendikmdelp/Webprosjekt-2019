@@ -9,7 +9,7 @@ html, body{
     height: 1080px;
     margin: 0;
     position: absolute;
-    background-color: rgb(247, 220, 147);
+    background-color: rgb(147, 187, 247);
 }
 
 #name{
@@ -61,29 +61,11 @@ html, body{
     transition: 0.1s; 
 }
 
-#table{
-    position: absolute;
-    height: 150px;
-    width: 200px;
-    top:400px;
-    background-color: rgb(147, 187, 247);
-    font-size: 40;
-    text-align: center;
-    font-family:'Raleway', sans-serif;
-    border-style: solid;
-    border-width: thin;
-}
-
-#table:hover{
-    filter: drop-shadow(10px 10px 1px #4444dd);
-    transition: 0.1s; 
-}
-
 #calendar{
     position: absolute;
     height: 150px;
     width: 200px;
-    top: 600px;
+    top: 400px;
     background-color: rgb(247, 159, 147);
     font-size: 40;
     text-align: center;
@@ -101,7 +83,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:800px;
+    top:600px;
     background-color: rgb(193, 241, 165);
     font-size: 40;
     text-align: center;
@@ -111,6 +93,24 @@ html, body{
 }
 
 #profile:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#settings{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:800px;
+    background-color: rgb(247, 220, 147);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin; 
+}
+
+#settings:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }

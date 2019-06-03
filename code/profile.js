@@ -2,8 +2,8 @@ function linkFrontpage(){
     window.location.href = "frontpage.html";
 }
 
-function linkProfile(){
-    window.location.href = "profile.html";
+function linkSettings(){
+    window.location.href = "settings.html";
 }
 
 function linkTable(){
