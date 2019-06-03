@@ -130,7 +130,7 @@ html, body{
 #ideaCard{
     position: absolute;
     height: 700px;
-    width: 300px;
+    width: 320px;
     top: 200px;
     left: 350px;
     background-color: white;
@@ -215,7 +215,7 @@ html, body{
 #inProgress{
     position: absolute;
     height: 700px;
-    width: 300px;
+    width: 320px;
     top: 200px;
     left: 1150px;
     z-index: 90;
@@ -228,7 +228,7 @@ html, body{
 #finished{
     position: absolute;
     height: 700px;
-    width: 300px;
+    width: 320px;
     top: 200px;
     left: 1550px;
     z-index: 90;
@@ -286,7 +286,7 @@ html, body{
     background-color: wheat;
     right: -300px;
     top: 100px;
-    z-index: 150;
+    z-index: 0;
 }
 #showTrash{
     position: absolute;

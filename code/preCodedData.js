@@ -58,7 +58,7 @@ window.onload = function addToTask(){
         cardList.setAttribute("draggable", true);
         cardList.setAttribute("ondragstart","drag(event)");
         cardList.ondragstart=function(){drag(event)};
-        cardListElement.style.fontSize="30";
+        cardListElement.style.fontSize="20";
         cardListElement.innerHTML=tasks[i].name;
         
         //card.appendChild(cardList);
@@ -91,5 +91,7 @@ window.onload = function addToTask(){
         cardList.appendChild(assignedList);
         assignedList.setAttribute("id", "users"+i);
         assignedList.style.fontSize="30";
+        
+        cardList.style.width="200px";
     }
 }

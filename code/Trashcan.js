@@ -4,6 +4,7 @@ function showTrashcan(){
     var trashcanStyle =getComputedStyle(style);
     if(trashcanStyle.right==="-300px"){
         trashcan.style.right="0";
+        trashcan.style.zIndex="150";
     }
     else{
         trashcan.style.right="-300px";

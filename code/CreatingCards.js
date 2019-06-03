@@ -48,7 +48,8 @@ function addToIdea(){
     cardList.appendChild(userItem);
     userItem.setAttributeNode(usrNameAtt); 
     
-    cardList.style.border="1px solid black";   
+    cardList.style.border="1px solid black";
+    cardList.style.width="200px";
 }
 
 function addToDoList(){
@@ -100,6 +101,7 @@ function addToDoList(){
     userItem.setAttributeNode(usrNameAtt);
     
     cardList.style.border="1px solid black";
+    cardList.style.width="200px";
      
 }
 
@@ -152,6 +154,7 @@ function addToProgress(){
     userItem.setAttributeNode(usrNameAtt);
     
     cardList.style.border="1px solid black";
+    cardList.style.width="200px";
     
 }
 
@@ -205,5 +208,6 @@ function addToFinished(){
     userItem.setAttributeNode(usrNameAtt);
     
     cardList.style.border="1px solid black";
+    cardList.style.width="200px";
     
 }
