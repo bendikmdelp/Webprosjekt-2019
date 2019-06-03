@@ -17,8 +17,14 @@ html, body{
     left: 30px;
     top: 20px;
     font-size: 50;
-    text-decoration-line: underline;
     font-family:'Raleway', sans-serif;
+}
+
+#daiqi{
+    width: 180px;
+    top: 20px;
+    left: 900px;
+    position: absolute;
 }
 
 #divider{
