@@ -1,0 +1,102 @@
+body{
+    height: 1080px;
+    width: 1920px;
+    background-color: blue;
+    margin: 0px;
+}
+
+#header{
+    position: absolute;
+    left:864px;
+    height: 108px;
+    top:0;
+    font-size: 80;
+    color:white;
+}
+
+#mainStage{
+    position: absolute;
+    border: 1px solid black;
+    height: 972px;
+    width: 1729px;
+    background-color: #f1f1f1;
+    top: 98px;
+    left:192px;
+    z-index: 2;
+    box-shadow: -5px -5px 5px 5px black;
+    padding:20px;
+}
+
+#profile{
+    position: absolute;
+    height: 68px;
+    width: 192px;
+    top:372px;
+    background-color: black;
+    font-size: 60;
+    color: white;
+}
+#home{
+    position: absolute;
+    height: 108px;
+    width: 192px;
+    top:90px;
+    background-color: black;
+    font-size: 70;
+    color: white;
+}
+#info{
+    position: absolute;
+    height: 98px;
+    width: 192px;
+    top:198px;
+    background-color: black;
+    font-size: 65   ;
+    color: white;
+}
+
+
+#calendar{
+    position: absolute;
+    height: 78px;
+    width: 192px;
+    top:274px;
+    background-color: black;
+    font-size: 50;
+    color: white;
+}
+
+--user
+
+.profile-card{
+    width: 400px;
+    margin: auto;
+    background: : #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+.image-container{
+    position: relative;
+    
+}
+
+.info{
+    color: #4b4fe2;
+    margin-right: 16px;
+    
+}
+
+.title{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.name{
+    position:relative; 
+    left: 35px;
+    color:  white;
+    top: 20px;
+}
+
+
