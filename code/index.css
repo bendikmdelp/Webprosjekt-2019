@@ -86,25 +86,22 @@ body{
 }
 
 
- #circle {
-     position:absolute;
-      width: 210px;
-      height: 210px;
-      border-radius:210px;
-      background: white;
-      bottom:95px;;
-      left:300px;
-      z-index:1;
-     box-shadow:-50px -50px -50px grey;
-    }
+#circle {
+    position:absolute;
+    width: 210px;
+    height: 210px;
+    border-radius:210px;
+    background: white;
+    bottom:95px;;
+    left:300px;
+    z-index:1;
+    box-shadow:-50px -50px -50px grey;
+}
 
 .circle:after{
     content:'';
     padding-bottom:100%;
     display:block;
-    
-
-    
 }
 
 span{
@@ -118,13 +115,13 @@ span{
 
 #circle2 {
     position:absolute;
-      width:210px;
-      height: 210px;
-      border-radius: 210px;
-      background: white;
-      bottom:95px;
-      left:900px;
-    }
+    width:210px;
+    height: 210px;
+    border-radius: 210px;
+    background: white;
+    bottom:95px;
+    left:900px;
+}
 #circle3{
      position:absolute;
       width: 210px;
@@ -133,7 +130,7 @@ span{
       background: white;
       bottom:95px;
       left:1500px;
-    }
+}
 
 
 
