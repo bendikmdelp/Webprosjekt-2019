@@ -1,91 +1,130 @@
-
-p{
-    color:white;
-    font-size:22px;
-    font-family:verdana;
-    position:absolute;
-    z-index:1;
-    text-align:center;
-    left:400px;
-    top:150px;
-    
-}
-
-h1{
-    color:white;
-    font-size:60px;
+/*avsnitt med info */
+p {
+    color: white;
+    font-size: 22px;
+    font-family: verdana;
+    position: absolute;
+    z-index: 1;
     text-align: center;
-    
+    left: 200px;
+    top: 200px;
+    padding: 50px;
+
+}
+
+/* Hoved-overskrift*/
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+/* Informasjonstekst*/
+h2 {
+    color: lightskyblue;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 800px;
+
 }
 
 
 
-body{
+body {
     height: 1080px;
     width: 1920px;
     background-color: blue;
     margin: 0px;
 }
 
-#header{
+#header {
     position: absolute;
-    left:865px;
+    left: 865px;
     height: 108px;
-    top:0;
+    top: 0;
     font-size: 80;
-    color:grey;
+    color: grey;
 }
 
-#mainStage{
+#mainStage {
     position: absolute;
     border: 1px solid black;
     height: 972px;
     width: 1729px;
     background-color: red;
     top: 98px;
-    left:192px;
+    left: 192px;
     z-index: 0;
     box-shadow: -5px -5px 5px 5px black;
 }
 
-#profile{
+/*profilknapp på siden*/
+#profile {
     position: absolute;
     height: 108px;
     width: 192px;
-    top:390px;
+    top: 390px;
     background-color: black;
     font-size: 60;
     color: white;
 }
-#home{
+
+/* hjemknapp på siden*/
+#home {
     position: absolute;
     height: 108px;
     width: 192px;
-    top:90px;
+    top: 90px;
     background-color: black;
-    font-size: 70;
+    font-size: 70px;
     color: white;
 }
-#info{
+
+/* Infoknapp på siden*/
+#info {
     position: absolute;
     height: 98px;
     width: 192px;
-    top:198px;
+    top: 198px;
     background-color: black;
-    font-size: 65   ;
+    font-size: 65px;
     color: white;
 }
-#calendar{
+
+/*Kalenderknapp på siden*/
+#calendar {
     position: absolute;
     height: 108px;
     width: 192px;
-    top:294px;
+    top: 294px;
     background-color: black;
-    font-size: 50;
+    font-size: 50px;
     color: white;
 }
 
+/* "Ring oss" -sirkelen" */
+#circle {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    background: white;
+    bottom: 150px;
+    ;
+    left: 300px;
+    z-index: 1;
+    box-shadow: -50px -50px -50px grey;
+}
 
+.circle:after {
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+
+<<<<<<< HEAD
 #circle {
     position:absolute;
     width: 210px;
@@ -102,18 +141,25 @@ body{
     content:'';
     padding-bottom:100%;
     display:block;
+=======
+
+
+>>>>>>> master
 }
 
-span{
-    position:absolute;
-    top:50%;
-    margin-left:15px;
-    font-size:25px;
-    color:black;
-    
+/* Felles kode til teksten som står inne i alle sirklene*/
+span {
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+    font-size: 25px;
+    color: black;
+
 }
 
+/*"Help And Service" sirkelen*/
 #circle2 {
+<<<<<<< HEAD
     position:absolute;
     width:210px;
     height: 210px;
@@ -130,7 +176,113 @@ span{
       background: white;
       bottom:95px;
       left:1500px;
+=======
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    background: white;
+    bottom: 150px;
+    left: 900px;
 }
 
+/*"Ring meg senere" knappen */
+#circle3 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    background: white;
+    bottom: 150px;
+    left: 1500px;
+}
 
+/* Felles kode for Twitter og facebook-knapper på siden*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+>>>>>>> master
+}
 
+/* Koden som styler facebook-knappen */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 1800px;
+    top: 120px;
+
+}
+
+/* Gir en hover-effekt på begge knappene */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Styler twitter-knappen */
+.fa-twitter {
+
+    background: #55ACEE;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 1800px;
+    top: 220px;
+}
+
+/*Tekstboks der du entrer inn nummeret ditt */
+input[type=text] {
+    width: 120px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    position: absolute;
+    bottom: 275px;
+    left: 1540px;
+
+}
+
+/* Kode som gjør nummber-boksen blå i kantene når du fokuserer den */
+input[type=text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+/* Kode for det grønne telefon-tegnet */
+
+.fa-phone {
+    z-index: 1;
+    position: absolute;
+    left: 290px;
+    bottom: 275px;
+
+}
+
+/* Kode for det grønne bruker-tegnet */
+
+.fa-user {
+    position: absolute;
+    z-index: 1;
+    left: 875px;
+    bottom: 275px;
+}
+
+/* Del 1 av paragrafet */
+#text1 {
+    top: 150px;
+    position:absolute;
+}
+
+/* Del to av paragrafet */
+#text2 {
+    top: 350px;
+    position: absolute;
+}
