@@ -58,7 +58,7 @@ window.onload = function addToTask(){
         cardList.setAttribute("draggable", true);
         cardList.setAttribute("ondragstart","drag(event)");
         cardList.ondragstart=function(){drag(event)};
-        cardListElement.style.fontSize="20";
+        cardListElement.style.fontSize="30";
         cardListElement.innerHTML=tasks[i].name;
         
         //card.appendChild(cardList);
@@ -68,6 +68,11 @@ window.onload = function addToTask(){
         cardNameAtt.value=tasks[i].id;
         cardListElement.setAttributeNode(cardNameAtt);
         
+        var descriptionName=document.createElement("li");
+        var descriptionNameNode=document.createTextNode("Description:");
+        descriptionName.appendChild(descriptionNameNode);
+        cardList.appendChild(descriptionName);
+        descriptionName.style.fontSize="25";
         var descriptionItem=document.createElement("li");
         descriptionItem.innerHTML=tasks[i].description;
         cardList.appendChild(descriptionItem);
@@ -78,21 +83,25 @@ window.onload = function addToTask(){
 
         cardList.style.border="1px solid black";
         
-        var DueDate = "must be done by "+tasks[i].dueDate;
+        var due=document.createElement("li")
+        due.innerHTML="Due date: ";
+        cardList.appendChild(due);
+        due.style.fontSize="25";
+        var DueDate = tasks[i].dueDate;
         var dueDate=document.createElement("li");
         dueDate.innerHTML=DueDate;
         cardList.appendChild(dueDate);
         dueDate.setAttribute("id", "due"+i);
-        dueDate.style.fontSize="30";
+        dueDate.style.fontSize="20";
         
         var assigned = "Assigned to: "+team[i].name;
         var assignedList=document.createElement("li");
         assignedList.innerHTML=assigned;
         cardList.appendChild(assignedList);
         assignedList.setAttribute("id", "users"+i);
-        assignedList.style.fontSize="30";
+        assignedList.style.fontSize="20";
         
-        cardList.style.width="200px";
+        cardList.style.width="300px";
         cardList.style.backgroundColor="white";
     }
 }

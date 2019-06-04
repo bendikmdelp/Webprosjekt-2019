@@ -121,14 +121,18 @@ html, body{
 
 .cardName{
     position: absolute;
-    top: 80px;
-    left:0;
+    top: 5px;
+    left:10px;
+    width: 370px;
+    height: 50px;
+    font-size: 30;
+    text-align: center;
 }
 
 .card{
     position: absolute;
     height: 700px;
-    width: 320px;
+    width: 390px;
     top: 200px;
     overflow-y: auto;
     text-align: center;
@@ -136,7 +140,7 @@ html, body{
 }
 
 #ideaCard{
-    left: 350px;
+    left: 300px;
     background-color: rgb(255, 158, 113);
 }
 .list{
@@ -148,47 +152,55 @@ html, body{
 .cardText{
     position: absolute;
     margin: 0;
-    top:5px;
-    width: 300px;
+    top:100px;
+    width: 390px;
     text-align: center;
 }
 
 #ideasText{
+    left: 300px;
     font-size: 80;
 
 }
 #todoText{
     font-size: 80;
+    left: 700px;
 }
 #progressText{
-    font-size: 60;
+    font-size: 70;
+    left: 1100px;
+    
 }
 #finishedText{
     font-size: 80;
+    left:  1500px;
 }
 
 #btn{
     position: absolute;
-    top: 80px;
-    left: 170px;
+    top: 60px;
+    left: 60px;
+    height: 40px;
+    width: 300px;
+    font-size: 23;
 }
 
 #toDo{
-    left: 750px;
+    left: 700px;
     z-index: 90;
     background-color: rgb(247, 159, 147);
     font-size: 90;
 }
 
 #inProgress{
-    left: 1150px;
+    left: 1100px;
     z-index: 90;
     background-color: rgb(193, 241, 165);
     font-size: 60;
 }
 
 #finished{
-    left: 1550px;
+    left: 1500px;
     z-index: 90;
     background-color: rgb(247, 220, 147);
     font-size: 80;
