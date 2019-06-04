@@ -1,7 +1,8 @@
 html, body{
     height: 1080px;
     width: 1920px;
-    margin: 0px;
+    margin: auto;
+    background-color: rgb(193, 241, 165);
 }
 
 #mainContainer{
