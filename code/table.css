@@ -154,8 +154,9 @@ html, body{
 }
 
 #ideasText{
-    font-size: 80;
-
+    font-size: 60;
+    top: 0px;
+    text-decoration: underline; 
 }
 #todoText{
     font-size: 80;
@@ -169,7 +170,9 @@ html, body{
 
 #btn{
     position: absolute;
-    top: 80px;
+    top: 75px;
+    width: 140px;
+    height: 30px;
     left: 170px;
 }
 
