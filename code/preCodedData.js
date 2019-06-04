@@ -93,5 +93,6 @@ window.onload = function addToTask(){
         assignedList.style.fontSize="30";
         
         cardList.style.width="200px";
+        cardList.style.backgroundColor="white";
     }
 }

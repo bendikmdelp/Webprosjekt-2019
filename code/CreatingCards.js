@@ -77,6 +77,7 @@ function addToIdea(){
     //style changing the card
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
+    cardList.style.backgroundColor="white";
 }
 
 function addToDoList(){
@@ -157,6 +158,7 @@ function addToDoList(){
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
+    cardList.style.backgroundColor="white";
      
 }
 
@@ -238,6 +240,7 @@ function addToProgress(){
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
+    cardList.style.backgroundColor="white";
     
 }
 
@@ -319,5 +322,6 @@ function addToFinished(){
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
+    cardList.style.backgroundColor="white";
     
 }
