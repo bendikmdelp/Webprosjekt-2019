@@ -133,70 +133,45 @@ html, body{
     left:0;
 }
 
-#ideaCard{
+.card{
     position: absolute;
     height: 700px;
     width: 320px;
     top: 200px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#ideaCard{
     left: 350px;
     background-color: white;
-    overflow-y: auto;
-
 }
 .list{
     top: 80px;
+    position: absolute;
+    font-size: 30;
+}
+
+.cardText{
+    position: absolute;
+    margin: 0;
+    top:5px;
+    width: 300px;
+    text-align: center;
 }
 
 #ideasText{
-    position: absolute;
-    margin: 0;
-    top:5px;
-    width: 300px;
     font-size: 80;
-    text-align: center;
+
 }
 #todoText{
-    position: absolute;
-    margin: 0;
-    top:5px;
-    width: 300px;
     font-size: 80;
-    text-align: center;
 }
 #progressText{
-    position: absolute;
-    margin: 0;
-    top:5px;
-    width: 300px;
     font-size: 60;
-    text-align: center;
 }
 #finishedText{
-    position: absolute;
-    margin: 0;
-    top:5px;
-    width: 300px;
     font-size: 80;
-    text-align: center;
-}
-
-#ideaList{
-    position: absolute;
-    
-    font-size: 30;
-}
-#todoList{
-    position: absolute;
-    
-    font-size: 30;
-}#progressList{
-    position: absolute;
-    
-    font-size: 30;
-}#finishedList{
-    position: absolute;
-   ;
-    font-size: 30;
 }
 
 #btn{
@@ -206,42 +181,25 @@ html, body{
 }
 
 #toDo{
-    position: absolute;
-    height: 700px;
-    width: 300px;
-    top: 200px;
     left: 750px;
     z-index: 90;
     background-color: white;
     font-size: 90;
-    text-align: center;
-    overflow-y: auto;
 }
 
 #inProgress{
-    position: absolute;
-    height: 700px;
-    width: 320px;
-    top: 200px;
     left: 1150px;
     z-index: 90;
     background-color: white;
     font-size: 60;
-    text-align: center;
-    overflow-y: auto;
 }
 
 #finished{
-    position: absolute;
-    height: 700px;
-    width: 320px;
-    top: 200px;
     left: 1550px;
     z-index: 90;
     background-color: white;
     font-size: 80;
-    text-align: center;
-    overflow-y: auto;
+
 }
 
 #chatbox{
