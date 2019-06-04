@@ -23,51 +23,52 @@
         <counts>
           <entry key="css" value="9" />
           <entry key="html" value="13" />
-          <entry key="js" value="6" />
+          <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
           <entry key="HTML" value="13" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1307" />
-          <entry key="html" value="1412" />
-          <entry key="js" value="743" />
+          <entry key="css" value="1331" />
+          <entry key="html" value="1422" />
+          <entry key="js" value="1104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1307" />
-          <entry key="HTML" value="1412" />
-          <entry key="JavaScript" value="743" />
+          <entry key="CSS" value="1331" />
+          <entry key="HTML" value="1422" />
+          <entry key="JavaScript" value="1104" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59586126">
+    <splitter split-orientation="horizontal" split-proportion="0.4666226">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homepage/calender/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+                <state relative-caret-position="102">
+                  <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -79,8 +80,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/homepage/calender/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+                <state relative-caret-position="1122">
+                  <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -88,8 +89,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homepage/calender/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                <state relative-caret-position="1987">
+                  <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/homepage/tablepage/preCodedData.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-line="26" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -126,8 +136,9 @@
         <option value="$PROJECT_DIR$/homepage/index.js" />
         <option value="$PROJECT_DIR$/homepage/index.html" />
         <option value="$PROJECT_DIR$/homepage/index.css" />
-        <option value="$PROJECT_DIR$/homepage/calender/index.css" />
         <option value="$PROJECT_DIR$/homepage/calender/index.html" />
+        <option value="$PROJECT_DIR$/homepage/tablepage/preCodedData.js" />
+        <option value="$PROJECT_DIR$/homepage/calender/index.css" />
         <option value="$PROJECT_DIR$/homepage/calender/index.js" />
       </list>
     </option>
@@ -150,22 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -189,6 +184,22 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="homepage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="tablepage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,11 +260,14 @@
       <workItem from="1559295079874" duration="10005000" />
       <workItem from="1559508881568" duration="5799000" />
       <workItem from="1559555319974" duration="17583000" />
+      <workItem from="1559580302589" duration="85000" />
+      <workItem from="1559608228300" duration="1764000" />
+      <workItem from="1559646100392" duration="3784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42245000" />
+    <option name="totallyTimeSpent" value="47878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,12 +282,12 @@
     <frame x="-8" y="-8" width="1833" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.08467966" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.15710306" />
       <window_info id="Structure" order="1" sideWeight="0.5007899" side_tool="true" weight="0.1740113" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49956635" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49956635" weight="0.3227848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49956635" visible="true" weight="0.3227848" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49869904" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,9 +333,7 @@
     <entry file="file://$PROJECT_DIR$/Script1.js" />
     <entry file="file://$PROJECT_DIR$/index.css" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/tablepage/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/tablepage/index.js" />
     <entry file="file://$PROJECT_DIR$/../../Mal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -353,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/tablepage/preCodedData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage/tablepage/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -381,24 +386,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/calender/index.css">
+    <entry file="file://$PROJECT_DIR$/homepage/tablepage/preCodedData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/calender/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state>
+          <caret selection-end-line="26" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage/calender/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/calender/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/calender/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1987">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
         </state>
       </provider>
     </entry>

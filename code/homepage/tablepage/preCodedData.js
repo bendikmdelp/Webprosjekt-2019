@@ -16,7 +16,7 @@ let tasks=[
         name: "Creating cards",
         dueDate: "2019-06-01",
         description: "Need to create the card needed in the app"
-        
+
     },
     {
         id:4,

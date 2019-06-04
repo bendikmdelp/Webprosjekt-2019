@@ -66,3 +66,8 @@ table {
     background-clip: padding-box;
     border: 1px solid #ced4da;
 }
+
+.calendarTask {
+    padding-left: 10px;
+    display: inline-block;
+}
