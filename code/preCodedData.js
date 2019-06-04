@@ -37,7 +37,7 @@ let team = [
     { id: 4, name: "Maggie" },
 
 ];
-
+//function used to create card with the info in the tasks array when the page is loaded
 window.onload = function addToTask(){
     for(var i=0; i<=tasks.length; i++){
         //var card=document.createElement("li");

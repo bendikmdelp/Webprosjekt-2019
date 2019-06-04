@@ -1,3 +1,4 @@
+//function to show the trashcan "div"
 function showTrashcan(){
     var style = document.querySelector("#trashcan")
     var trashcan = document.getElementById("trashcan");
