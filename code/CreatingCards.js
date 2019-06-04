@@ -36,7 +36,6 @@ function addToIdea(){
     dueDateItem.appendChild(dueDateNode);
     cardList.appendChild(dueDateItem);
     //adding users to the task
-    
     var userItem=document.createElement("li");
     var userNode=document.createTextNode("Assigned to:" );
     userItem.appendChild(userNode);
@@ -75,7 +74,7 @@ function addToIdea(){
     }while(users!==null)
     
  
-    //style chaning the card
+    //style changing the card
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
 }
@@ -121,14 +120,42 @@ function addToDoList(){
     dueDateItem.appendChild(dueDateNode);
     cardList.appendChild(dueDateItem);
     
-    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode("Assigned to: " + users);
-    var usrNameAtt = document.createAttribute("id");
-    usrNameAtt.value=Math.random;
+    var userNode=document.createTextNode("Assigned to:" );
     userItem.appendChild(userNode);
     cardList.appendChild(userItem);
-    userItem.setAttributeNode(usrNameAtt);
+    var usrNameAtt = document.createAttribute("id");
+    do{
+        var i = 0;
+        var users = prompt("Choose a user: 1=John Frederik, 2=Jaspreet Singh, 3=Marit Sivertsen, 4=Tor Arne");
+        if(users==="1"){
+            var userItem1=document.createElement("li");
+            var userNode1=document.createTextNode("John Frederik");
+            userItem1.appendChild(userNode1);
+            cardList.appendChild(userItem1);
+            userItem1.setAttribute("id", Math.random+cardName);
+        }else if(users==="2"){
+            var userItem2=document.createElement("li");
+            var userNode2=document.createTextNode("Jaspreet Singh");
+            userItem2.appendChild(userNode2);
+            cardList.appendChild(userItem2);
+            userItem2.setAttribute("id", Math.random+cardName+1);
+        }else if(users==="3"){
+            var userItem3=document.createElement("li");
+            var userNode3=document.createTextNode("Marit Sivertsen");
+            userItem3.appendChild(userNode3);
+            cardList.appendChild(userItem3);
+            userItem3.setAttribute("id", Math.random+cardName+2);
+        }else if(users==="4"){
+            var userItem4=document.createElement("li");
+            var userNode4=document.createTextNode("Tor Arne");
+            userItem4.appendChild(userNode4);
+            cardList.appendChild(userItem4);
+            userItem4.setAttribute("id", Math.random+cardName+3);
+        }else{
+            users=null;
+        }
+    }while(users!==null)
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
@@ -176,14 +203,42 @@ function addToProgress(){
     dueDateItem.appendChild(dueDateNode);
     cardList.appendChild(dueDateItem);
     
-    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode("Assigned to: " + users);
-    var usrNameAtt = document.createAttribute("id");
-    usrNameAtt.value=Math.random;
+    var userNode=document.createTextNode("Assigned to:" );
     userItem.appendChild(userNode);
     cardList.appendChild(userItem);
-    userItem.setAttributeNode(usrNameAtt);
+    var usrNameAtt = document.createAttribute("id");
+    do{
+        var i = 0;
+        var users = prompt("Choose a user: 1=John Frederik, 2=Jaspreet Singh, 3=Marit Sivertsen, 4=Tor Arne");
+        if(users==="1"){
+            var userItem1=document.createElement("li");
+            var userNode1=document.createTextNode("John Frederik");
+            userItem1.appendChild(userNode1);
+            cardList.appendChild(userItem1);
+            userItem1.setAttribute("id", Math.random+cardName);
+        }else if(users==="2"){
+            var userItem2=document.createElement("li");
+            var userNode2=document.createTextNode("Jaspreet Singh");
+            userItem2.appendChild(userNode2);
+            cardList.appendChild(userItem2);
+            userItem2.setAttribute("id", Math.random+cardName+1);
+        }else if(users==="3"){
+            var userItem3=document.createElement("li");
+            var userNode3=document.createTextNode("Marit Sivertsen");
+            userItem3.appendChild(userNode3);
+            cardList.appendChild(userItem3);
+            userItem3.setAttribute("id", Math.random+cardName+2);
+        }else if(users==="4"){
+            var userItem4=document.createElement("li");
+            var userNode4=document.createTextNode("Tor Arne");
+            userItem4.appendChild(userNode4);
+            cardList.appendChild(userItem4);
+            userItem4.setAttribute("id", Math.random+cardName+3);
+        }else{
+            users=null;
+        }
+    }while(users!==null)
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
@@ -232,14 +287,42 @@ function addToFinished(){
     dueDateItem.appendChild(dueDateNode);
     cardList.appendChild(dueDateItem);
     
-    var users = prompt("Add users to task")
     var userItem=document.createElement("li");
-    var userNode=document.createTextNode("Assigned to: " + users);
-    var usrNameAtt = document.createAttribute("id");
-    usrNameAtt.value=Math.random;
+    var userNode=document.createTextNode("Assigned to:" );
     userItem.appendChild(userNode);
     cardList.appendChild(userItem);
-    userItem.setAttributeNode(usrNameAtt);
+    var usrNameAtt = document.createAttribute("id");
+    do{
+        var i = 0;
+        var users = prompt("Choose a user: 1=John Frederik, 2=Jaspreet Singh, 3=Marit Sivertsen, 4=Tor Arne");
+        if(users==="1"){
+            var userItem1=document.createElement("li");
+            var userNode1=document.createTextNode("John Frederik");
+            userItem1.appendChild(userNode1);
+            cardList.appendChild(userItem1);
+            userItem1.setAttribute("id", Math.random+cardName);
+        }else if(users==="2"){
+            var userItem2=document.createElement("li");
+            var userNode2=document.createTextNode("Jaspreet Singh");
+            userItem2.appendChild(userNode2);
+            cardList.appendChild(userItem2);
+            userItem2.setAttribute("id", Math.random+cardName+1);
+        }else if(users==="3"){
+            var userItem3=document.createElement("li");
+            var userNode3=document.createTextNode("Marit Sivertsen");
+            userItem3.appendChild(userNode3);
+            cardList.appendChild(userItem3);
+            userItem3.setAttribute("id", Math.random+cardName+2);
+        }else if(users==="4"){
+            var userItem4=document.createElement("li");
+            var userNode4=document.createTextNode("Tor Arne");
+            userItem4.appendChild(userNode4);
+            cardList.appendChild(userItem4);
+            userItem4.setAttribute("id", Math.random+cardName+3);
+        }else{
+            users=null;
+        }
+    }while(users!==null)
     
     cardList.style.border="1px solid black";
     cardList.style.width="200px";
