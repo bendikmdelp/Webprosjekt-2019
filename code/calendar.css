@@ -14,9 +14,9 @@ html, body{
 
 #name{
     position: absolute;
-    left: 30px;
-    top: 20px;
-    font-size: 50;
+    left: 16px;
+    top: 484px;
+    font-size: 40;
     font-family:'Raleway', sans-serif;
 }
 
@@ -40,20 +40,11 @@ html, body{
     position: absolute;
 }
 
-/*#mainStage{
-    position: absolute;
-    height: 960px;
-    width: 1670px;
-    background-color: rgb(189, 189, 189);
-    top: 120px;
-    left:250px;
-}*/
-
 #home{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:200px;
+    top:100px;
     background-color: rgb(252, 146, 146);
     font-size: 40;
     text-align: center;
@@ -71,7 +62,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:400px;
+    top:280px;
     background-color: rgb(147, 187, 247);
     font-size: 40;
     text-align: center;
@@ -89,7 +80,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top: 600px;
+    top: 820px;
     background-color: rgb(247, 220, 147);
     font-size: 40;
     text-align: center;
@@ -107,7 +98,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:800px;
+    top:640px;
     background-color: rgb(193, 241, 165);
     font-size: 40;
     text-align: center;
