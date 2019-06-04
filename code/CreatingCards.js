@@ -80,7 +80,6 @@ function addToIdea(){
 }
 
 function addToDoList(){
-    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameTodo").value;
    
@@ -94,7 +93,6 @@ function addToDoList(){
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("todoList").appendChild(cardList);
-    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=Math.random;
@@ -163,7 +161,6 @@ function addToDoList(){
 }
 
 function addToProgress(){
-    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameprogress").value;
    
@@ -177,7 +174,6 @@ function addToProgress(){
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("progressList").appendChild(cardList);
-    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=cardName;
@@ -246,11 +242,9 @@ function addToProgress(){
 }
 
 function addToFinished(){
-    //var card=document.createElement("li");
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameFinished").value;
    
-    //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
     cardList.setAttribute("id", cardName);
     cardList.setAttribute("draggable",true);
@@ -261,7 +255,6 @@ function addToFinished(){
     var textNode =document.createTextNode(cardName);
     cardListElement.appendChild(textNode);
     document.getElementById("finishedList").appendChild(cardList);
-    //card.appendChild(cardList);
     cardList.appendChild(cardListElement);
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=Math.random;
