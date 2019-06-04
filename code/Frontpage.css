@@ -1,7 +1,8 @@
 html, body{
     width: 1920px;
     height: 1080px;
-    margin: 0;
+    margin: auto;
+    background-image: radial-gradient(rgb(215, 236, 253), rgb(102, 183, 250));
 }
 
 #daiqi{
