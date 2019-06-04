@@ -15,79 +15,84 @@
     
     <body>
     
-    <div id="mainContainer">
+        <div id="mainContainer">
 
-        <h1 id="name">Table</h1>
+            <h1 id="name">Table</h1>
 
-        <div id="divider"></div>
+            <div id="divider"></div>
 
-        <img id="daiqi" src="Pictures/daiqi_logo.png">
-        
-        <button id="home" onclick="linkFrontpage()">
-            <a id="homeText">Home</a>
-        </button>
+            <img id="daiqi" src="Pictures/daiqi_logo.png">
 
-        <button id="profile" onclick="linkProfile()">
-            <a id="homeText">Profile</a>
-        </button>
+            <button id="home" onclick="linkFrontpage()">
+                <a id="homeText">Home</a>
+            </button>
 
-        <button id="calendar" onclick="linkCalendar()">
-            <a id="homeText">Calendar</a>
-        </button>
+            <button id="profile" onclick="linkProfile()">
+                <a id="homeText">Profile</a>
+            </button>
 
-        <button id="settings" onclick="linkSettings()">
-            <a id="homeText">settings</a>
-        </button>
+            <button id="calendar" onclick="linkCalendar()">
+                <a id="homeText">Calendar</a>
+            </button>
 
-        <div id="ideaCard"ondrop="dropIdea(event)" ondragover="allowDrop(event)">
-            <h3 id="ideasText">Ideas</h3>
-            <ul id="ideaList" class="list">
-                
-            </ul>
-             <input type="text" id="cardNameIdea" class="cardName"placeholder="Enter cardName">
-            <button id=btn onclick="addToIdea()">click to add card</button>
-        </div>
-        <div id="toDo" ondrop="dropTodo(event)" ondragover="allowDrop(event)">
-            <h3 id="todoText">To Do</h3>
-            <ul id="todoList" class="list">
-                
-            </ul>
-           <input type="text" id="cardNameTodo" class="cardName"placeholder="Enter cardName">
-            <button id=btn onclick="addToDoList()">click to add card</button>
-        </div>
-        <div id="inProgress" ondrop="dropProgress(event)" ondragover="allowDrop(event)">            
-            <h3 id="progressText">In Progress</h3>
-            <ul id="progressList" class="list">
-                
-            </ul>
-            <input type="text" id="cardNameprogress" class="cardName" placeholder="Enter cardName">
-            <button id=btn onclick="addToProgress()">click to add card</button>
-        </div>
-        <div id="finished" ondrop="dropFinished(event)" ondragover="allowDrop(event)">            
-            <h3 id="finishedText">Finished</h3>
-            <ul id="finishedList" class="list">
-                
-            </ul>
-            <input type="text" id="cardNameFinished" class="cardName"placeholder="Enter cardName">
-            <button id=btn onclick="addToFinished()">click to add card</button>
-        </div>
-        <div id="chatbox">
-            <button type="button" id=chatBtn onclick="showChat()">show chat</button>
-            <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
+            <button id="settings" onclick="linkSettings()">
+                <a id="homeText">settings</a>
+            </button>
 
-            <div id="chatArea">
-                <ul id="chatList">
+            <div id="ideaCard"ondrop="dropIdea(event)" ondragover="allowDrop(event)">
+                <h3 id="ideasText">Ideas</h3>
+                <ul id="ideaList" class="list">
+
                 </ul>
+                 <input type="text" id="cardNameIdea" class="cardName"placeholder="Enter cardName">
+                <button id=btn onclick="addToIdea()">click to add card</button>
             </div>
-            <input type="text" id="chatInput" placeholder="Enter message">
-        </div>
-        <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Trashcan</button>
-        <div id="trashcan">
-            <ul id="trashList">
-            </ul>        
-        </div>
 
-    </div>
+            <div id="toDo" ondrop="dropTodo(event)" ondragover="allowDrop(event)">
+                <h3 id="todoText">To Do</h3>
+                <ul id="todoList" class="list">
+
+                </ul>
+               <input type="text" id="cardNameTodo" class="cardName"placeholder="Enter cardName">
+                <button id=btn onclick="addToDoList()">click to add card</button>
+            </div>
+
+            <div id="inProgress" ondrop="dropProgress(event)" ondragover="allowDrop(event)">            
+                <h3 id="progressText">In Progress</h3>
+                <ul id="progressList" class="list">
+
+                </ul>
+                <input type="text" id="cardNameprogress" class="cardName" placeholder="Enter cardName">
+                <button id=btn onclick="addToProgress()">click to add card</button>
+            </div>
+
+            <div id="finished" ondrop="dropFinished(event)" ondragover="allowDrop(event)">            
+                <h3 id="finishedText">Finished</h3>
+                <ul id="finishedList" class="list">
+
+                </ul>
+                <input type="text" id="cardNameFinished" class="cardName"placeholder="Enter cardName">
+                <button id=btn onclick="addToFinished()">click to add card</button>
+            </div>
+
+            <div id="chatbox">
+                <button type="button" id=chatBtn onclick="showChat()">show chat</button>
+                <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
+
+                <div id="chatArea">
+                    <ul id="chatList">
+                    </ul>
+                </div>
+                <input type="text" id="chatInput" placeholder="Enter message">
+            </div>
+
+            <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Trashcan</button>
+            <div id="trashcan">
+                <ul id="trashList">
+                </ul>        
+            </div>
+
+        </div>
 
     </body>
     

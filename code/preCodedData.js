@@ -28,13 +28,13 @@ let tasks=[
 
 let team = [
 
-    { id: 1, name: "Marge" },
+    { id: 1, name: "John Frederik" },
 
-    { id: 2, name: "Lisa" },
+    { id: 2, name: "Jaspreet Singh" },
 
-    { id: 3, name: "Homer" },
+    { id: 3, name: "Marit Sivertsen" },
 
-    { id: 4, name: "Maggie" },
+    { id: 4, name: "Tor Arne" },
 
 ];
 //function used to create card with the info in the tasks array when the page is loaded

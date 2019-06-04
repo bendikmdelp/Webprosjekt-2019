@@ -85,7 +85,7 @@ function addToDoList(){
     var cardName=document.getElementById("cardNameTodo").value;
    
     var cardListElement=document.createElement("li");
-    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("id", cardName);
     cardList.setAttribute("draggable",true);
     cardList.setAttribute("ondragstart","drag(event)");
     cardList.ondragstart=function(){drag(event)};
@@ -168,7 +168,7 @@ function addToProgress(){
     var cardName=document.getElementById("cardNameprogress").value;
    
     var cardListElement=document.createElement("li");
-    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("id", cardName);
     cardList.setAttribute("draggable",true);
     cardList.setAttribute("ondragstart","drag(event)");
     cardList.ondragstart=function(){drag(event)};
@@ -252,7 +252,7 @@ function addToFinished(){
    
     //var input = document.createElement("input").innerHTML="enter Card name";
     var cardListElement=document.createElement("li");
-    cardList.setAttribute("id", Math.random);
+    cardList.setAttribute("id", cardName);
     cardList.setAttribute("draggable",true);
     cardList.setAttribute("ondragstart","drag(event)");
     cardList.ondragstart=function(){drag(event)};
