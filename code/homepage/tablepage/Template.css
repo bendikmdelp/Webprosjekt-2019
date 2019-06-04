@@ -13,10 +13,7 @@ body{
     font-size: 80;
     color:white;
 }
-#input{
-    position: absolute;
-    top:500px;
-}
+
 #mainStage{
     position: absolute;
     border: 1px solid black;
@@ -139,7 +136,7 @@ body{
     font-size: 30;
 }
 
-#btn{
+.btn{
     position: absolute;
     top: 80px;
     left: 170px;

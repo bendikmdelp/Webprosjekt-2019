@@ -1,0 +1,254 @@
+html, body{
+    height: 1080px;
+    width: 1920px;
+    margin: auto;
+    background-color: rgb(147, 187, 247);
+}
+
+#mainContainer{
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(147, 187, 247);
+    overflow: hidden;
+}
+
+#name{
+    position: absolute;
+    left: 50px;
+    top: 305px;
+    font-size: 40;
+    font-family:'Raleway', sans-serif;
+}
+
+#daiqi{
+    width: 180px;
+    top: 20px;
+    left: 900px;
+    position: absolute;
+}
+
+#divider{
+    position: absolute;
+    background-color: black;
+    left: 260px;
+    top: 100px;
+    width: 5px;
+    height: 900px;
+}
+
+#mainStage{
+    position: absolute;
+}
+
+#home{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:100px;
+    background-color: rgb(255, 158, 113);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#home:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#calendar{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 460px;
+    background-color: rgb(247, 159, 147);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#calendar:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#profile{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:640px;
+    background-color: rgb(193, 241, 165);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#profile:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#settings{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:820px;
+    background-color: rgb(247, 220, 147);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin; 
+}
+
+#settings:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#input{
+    position: absolute;
+    top:500px;
+}
+
+.cardName{
+    position: absolute;
+    top: 80px;
+    left:0;
+}
+
+.card{
+    position: absolute;
+    height: 700px;
+    width: 320px;
+    top: 200px;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#ideaCard{
+    left: 350px;
+    background-color: rgb(255, 158, 113);
+}
+.list{
+    top: 80px;
+    position: absolute;
+    font-size: 30;
+}
+
+.cardText{
+    position: absolute;
+    margin: 0;
+    top:5px;
+    width: 300px;
+    text-align: center;
+}
+
+#ideasText{
+    font-size: 80;
+
+}
+#todoText{
+    font-size: 80;
+}
+#progressText{
+    font-size: 60;
+}
+#finishedText{
+    font-size: 80;
+}
+
+#btn{
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+#toDo{
+    left: 750px;
+    z-index: 90;
+    background-color: rgb(247, 159, 147);
+    font-size: 90;
+}
+
+#inProgress{
+    left: 1150px;
+    z-index: 90;
+    background-color: rgb(193, 241, 165);
+    font-size: 60;
+}
+
+#finished{
+    left: 1550px;
+    z-index: 90;
+    background-color: rgb(247, 220, 147);
+    font-size: 80;
+
+}
+
+#chatbox{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    bottom: -200px;
+    left: 265px;
+}
+
+#chatBtn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -50px;
+}
+
+#chatArea{
+    position: absolute;
+    height: 160px;
+    width: 180px;
+    border: 1px solid black;
+    left: 10px;
+    top:10px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+#chatInput{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+}
+#sendBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+}
+
+#trashcan{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    overflow-y: auto;
+    background-color: saddlebrown;
+    right: -300px;
+    top: 100px;
+    z-index: 0;
+}
+#showTrash{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    height: 75px;
+    width: 100px;
+}
