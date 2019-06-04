@@ -25,7 +25,6 @@ let tasks=[
         name: "Creating cards",
         dueDate: "2019-06-01",
         description: "Need to create the card needed in the app"
-
     },
     {
         id:4,
@@ -87,36 +86,35 @@ function renderCalender(month, year) {
             else {
                 let grid = document.createElement("td");
                 let gridText = document.createTextNode(date);
-                if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {}
+                if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
+                    grid.classList.add("today"); //styling for current day
+                }
                 grid.appendChild(gridText);
-                // SKRIV IFFENE HER
+                // Hardcode each "card" and adds a class for styling.
+                // month starts on 0, so january = 0.
                 if(year === 2019 && month === 5 && date === 5){
                     let taskElement = document.createElement("div");
-                    taskElement.classList.add("calendarTask")
+                    taskElement.classList.add("calendarTask");
                     taskElement.innerHTML = tasks[0].name;
                     grid.appendChild(taskElement)
-                    console.log(year + " " + month + " " + date)
                 }
-                if(year === 2019 && month === 5 && date === 5){
+                if(year === 2019 && month === 5 && date === 7){
                     let taskElement = document.createElement("div");
-                    taskElement.classList.add("calendarTask")
-                    taskElement.innerHTML = tasks[0].name;
+                    taskElement.classList.add("calendarTask");
+                    taskElement.innerHTML = tasks[1].name;
                     grid.appendChild(taskElement)
-                    console.log(year + " " + month + " " + date)
                 }
-                if(year === 2019 && month === 5 && date === 5){
+                if(year === 2019 && month === 5 && date === 1){
                     let taskElement = document.createElement("div");
-                    taskElement.classList.add("calendarTask")
-                    taskElement.innerHTML = tasks[0].name;
+                    taskElement.classList.add("calendarTask");
+                    taskElement.innerHTML = tasks[2].name;
                     grid.appendChild(taskElement)
-                    console.log(year + " " + month + " " + date)
                 }
-                if(year === 2019 && month === 5 && date === 5){
+                if(year === 2019 && month === 4 && date === 29){
                     let taskElement = document.createElement("div");
-                    taskElement.classList.add("calendarTask")
-                    taskElement.innerHTML = tasks[0].name;
+                    taskElement.classList.add("calendarTask");
+                    taskElement.innerHTML = tasks[3].name;
                     grid.appendChild(taskElement)
-                    console.log(year + " " + month + " " + date)
                 }
                 row.appendChild(grid);
                 date++;
