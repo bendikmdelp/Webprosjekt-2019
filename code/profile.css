@@ -14,9 +14,9 @@ html, body{
 
 #name{
     position: absolute;
-    left: 30px;
-    top: 20px;
-    font-size: 50;
+    left: 42px;
+    top: 665px;
+    font-size: 40;
     font-family:'Raleway', sans-serif;
 }
 
@@ -40,20 +40,11 @@ html, body{
     position: absolute;
 }
 
-/*#mainStage{
-    position: absolute;
-    height: 960px;
-    width: 1670px;
-    background-color: rgb(189, 189, 189);
-    top: 120px;
-    left:250px;
-}*/
-
 #home{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:200px;
+    top:100px;
     background-color: rgb(255, 158, 113);
     font-size: 40;
     text-align: center;
@@ -71,7 +62,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:400px;
+    top:280px;
     background-color: rgb(147, 187, 247);
     font-size: 40;
     text-align: center;
@@ -89,7 +80,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top: 600px;
+    top: 460px;
     background-color: rgb(247, 159, 147);
     font-size: 40;
     text-align: center;
@@ -107,7 +98,7 @@ html, body{
     position: absolute;
     height: 150px;
     width: 200px;
-    top:800px;
+    top:820px;
     background-color: rgb(247, 220, 147);
     font-size: 40;
     text-align: center;
@@ -119,4 +110,47 @@ html, body{
 #settings:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
+}
+
+#mainStage{
+    position: absolute;
+    border: 1px solid black;
+    height: 900px;
+    width: 1500px;
+    background-color: #f1f1f1;
+    top: 110px;
+    left:350px;
+}
+
+--user
+
+.profile-card{
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+.image-container{
+    position: relative;
+    
+}
+
+.info{
+    color: #4b4fe2;
+    margin-right: 16px;
+    
+}
+
+.title{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.name{
+    position:relative; 
+    left: 35px;
+    color:  white;
+    top: 20px;
 }
