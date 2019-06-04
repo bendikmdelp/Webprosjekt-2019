@@ -8,7 +8,7 @@ let tasks=[
     {
         id: 2,
         name: "Finish app",
-        dueDate: "2019-06-05",
+        dueDate: "2019-06-07",
         description: "We need to finish the app by the deadline"
     },
     {
