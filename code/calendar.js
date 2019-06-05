@@ -78,6 +78,7 @@ function renderCalender(month, year) {
                 let grid = document.createElement("td");
                 grid.appendChild(gridText); //sets each grid to empty
                 row.appendChild(grid); //appends td to each row
+                grid.style.width="80px";
             }
             else if (date > daysInMonth) {
                 break;
@@ -118,14 +119,16 @@ function renderCalender(month, year) {
                 }
                 row.appendChild(grid);
                 date++;
+                grid.style.width="80px";
             }
 
-
+            
         }
-
+        
+        row.style.height="120px";
         body.appendChild(row); // appending every row to the body.
+        
 
 
     }
-
 }
