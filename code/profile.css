@@ -123,30 +123,48 @@ html, body{
     left:350px;
 }
 
-
 #profilePic{
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 280px;
-    height: 280px;
-
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
 }
 
 #infobox{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 480px;
     position: absolute;
-    top: 320px;
-    left: 60px;
+    top: 400px;
+    left: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#bioBox{
+    position: absolute;
+    width: 1075px;
+    height: 350px;
+    left: 400px;
+    top: 20px;
+    background-color: white;
+    border: 2px solid black;
 }
 
 #bio{
     position: absolute;
     height: 50px;
-    width: 1000px;
-    left: 400px;
-    top: 350px;
+    width: 1030px;
+    bottom: 20px;
+    font-size: 20px;
+    left: 20px;
+}
+
+#bioText{
+    position: absolute;
+    margin: 20px;
+    font-size: 20;
 }
 
 #chatbox{
