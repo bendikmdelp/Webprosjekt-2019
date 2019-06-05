@@ -6,12 +6,12 @@ function linkProfile(){
     window.location.href = "profile.html";
 }
 
-function linkSettings(){
-    window.location.href = "settings.html";
+function linkInfo(){
+    window.location.href = "info.html";
 }
 
 function linkCalendar(){
-    window.location.href = "Calendar.html";
+    window.location.href = "calendar.html";
 }
 
 function linkTable(){
