@@ -140,7 +140,11 @@ html, body{
     left: 20px;
     background-color: white;
     border: 1px solid black;
+    margin: 0;
+    overflow-y: auto;
 }
+
+
 
 #bioBox{
     position: absolute;
@@ -150,6 +154,7 @@ html, body{
     top: 20px;
     background-color: white;
     border: 2px solid black;
+    overflow-y: auto;
 }
 
 #bio{
