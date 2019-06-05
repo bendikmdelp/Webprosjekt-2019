@@ -121,14 +121,18 @@ html, body{
 
 .cardName{
     position: absolute;
-    top: 80px;
-    left:0;
+    top: 5px;
+    left:100px;
+    width: 200px;
+    height: 40px;
+    font-size: 20;
+    text-align: center;
 }
 
 .card{
     position: absolute;
     height: 700px;
-    width: 320px;
+    width: 390px;
     top: 200px;
     overflow-y: auto;
     text-align: center;
@@ -136,7 +140,7 @@ html, body{
 }
 
 #ideaCard{
-    left: 350px;
+    left: 300px;
     background-color: rgb(255, 158, 113);
 }
 .list{
@@ -148,50 +152,55 @@ html, body{
 .cardText{
     position: absolute;
     margin: 0;
-    top:5px;
-    width: 300px;
+    top:100px;
+    width: 390px;
     text-align: center;
 }
 
 #ideasText{
-    font-size: 60;
-    top: 0px;
-    text-decoration: underline; 
+    left: 300px;
+    font-size: 80;
+
 }
 #todoText{
     font-size: 80;
+    left: 700px;
 }
 #progressText{
-    font-size: 60;
+    font-size: 70;
+    left: 1100px;
+    
 }
 #finishedText{
     font-size: 80;
+    left:  1500px;
 }
 
 #btn{
     position: absolute;
-    top: 75px;
-    width: 140px;
-    height: 30px;
-    left: 170px;
+    top: 60px;
+    left: 100px;
+    height: 40px;
+    width: 200px;
+    font-size: 23;
 }
 
 #toDo{
-    left: 750px;
+    left: 700px;
     z-index: 90;
     background-color: rgb(247, 159, 147);
     font-size: 90;
 }
 
 #inProgress{
-    left: 1150px;
+    left: 1100px;
     z-index: 90;
     background-color: rgb(193, 241, 165);
     font-size: 60;
 }
 
 #finished{
-    left: 1550px;
+    left: 1500px;
     z-index: 90;
     background-color: rgb(247, 220, 147);
     font-size: 80;
@@ -200,58 +209,106 @@ html, body{
 
 #chatbox{
     position: absolute;
-    height: 200px;
-    width: 200px;
-    background-color: cyan;
-    bottom: -200px;
-    left: 265px;
+    height: 300px;
+    width: 400px;
+    background-color: darkgrey;
+    bottom: -300px;
+    left: 300px;
+    z-index: 50;
 }
 
 #chatBtn{
     position: absolute;
-    height: 50px;
-    width: 50px;
-    top: -50px;
+    height: 150px;
+    width: 200px;
+    top: -150px;
+    font-size: 35;
+    background-color: darkgrey;
+    border-radius: 25px;
+}
+#chatBtn:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
 }
 
 #chatArea{
     position: absolute;
-    height: 160px;
-    width: 180px;
+    height: 240px;
+    width: 380px;
     border: 1px solid black;
     left: 10px;
     top:10px;
     overflow-y: auto;
     background-color: white;
+    font-size: 30;
 }
 
 #chatInput{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 140px;
+    bottom: 5;
+    left: 10;
+    width: 240px;
+    height: 40px;
+    font-size: 20;
 }
 #sendBtn{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 60px;
+    bottom: 5;
+    right: 10;
+    width: 120px;
+    height: 40px;
 }
 
 #trashcan{
     position: absolute;
     height: 500px;
-    width: 300px;
+    width: 390px;
     overflow-y: auto;
-    background-color: saddlebrown;
-    right: -300px;
+    background-color: cyan;
+    right: -390px;
     top: 100px;
     z-index: 0;
+    border-radius: 25px;
 }
 #showTrash{
     position: absolute;
     bottom:0;
-    right: 0;
-    height: 75px;
+    right: 20px;
+    height: 150px;
+    width: 200px;
+    background-color: cyan;
+    font-size: 40;
+    border-radius: 25px;
+}
+#showTrash:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s; 
+}
+
+#trashText{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 60;
+    margin: 0;
+}
+#trashList{
+    position: absolute;
+    top: 50px;
+}
+
+#emptyTrashcan{
+    position: absolute;
+    top:5px;
+    right:5px;
+    height: 50px;
     width: 100px;
 }
+
+#info{
+    position: absolute;
+    bottom: 50px;
+    left:600px;
+    font-size: 40;
+}
+

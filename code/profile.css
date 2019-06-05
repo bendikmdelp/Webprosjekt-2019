@@ -148,3 +148,41 @@ html, body{
     left: 400px;
     top: 350px;
 }
+
+#chatbox{
+    position: absolute;
+    height: 430px;
+    width: 700px;
+    background-color: darkgrey;
+    bottom: 70px;
+    right: 70px;
+    z-index: 50;
+}
+
+#chatArea{
+    position: absolute;
+    height: 370px;
+    width: 680px;
+    border: 1px solid black;
+    left: 10px;
+    top:10px;
+    overflow-y: auto;
+    background-color: white;
+    font-size: 30;
+}
+
+#chatInput{
+    position: absolute;
+    bottom: 5;
+    left: 10;
+    width: 540px;
+    height: 40px;
+    font-size: 20;
+}
+#sendBtn{
+    position: absolute;
+    bottom: 5;
+    right: 10;
+    width: 120px;
+    height: 40px;
+}
