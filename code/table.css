@@ -287,7 +287,7 @@ html, body{
 #trashText{
     position: absolute;
     top: 0;
-    left: 75px;
+    left: 30px;
     font-size: 60;
     margin: 0;
 }
@@ -295,3 +295,12 @@ html, body{
     position: absolute;
     top: 50px;
 }
+
+#emptyTrashcan{
+    position: absolute;
+    top:5px;
+    right:5px;
+    height: 50px;
+    width: 100px;
+}
+

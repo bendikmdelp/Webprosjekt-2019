@@ -7,7 +7,7 @@ function showChat(){
     //the next if/else statement is to make the the chatbox move up if it is out of view, and back if it is in view
     if(chatBoxStyle.bottom=="-300px"){
         chatBox.style.bottom="0";
-        showChat.innerHTML="Hide Chat"
+        showChat.innerHTML="Hide chat"
     }else{
         chatBox.style.bottom="-300px";
         showChat.innerHTML="Show chat"

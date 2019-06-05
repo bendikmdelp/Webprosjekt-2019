@@ -87,11 +87,12 @@
                 <input type="text" id="chatInput" placeholder="Enter message">
             </div>
 
-            <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Trashcan</button>
+            <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Show trashcan</button>
             <div id="trashcan">
                 <h3 id="trashText">Trashcan</h3>
                 <ul id="trashList">
-                </ul>        
+                </ul>
+                <button id="emptyTrashcan" onclick="emptyTrash()">Empty trashcan</button>
             </div>
 
         </div>
