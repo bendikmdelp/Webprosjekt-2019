@@ -38,40 +38,41 @@
             <button id="settings" onclick="linkSettings()">
                 <a id="homeText">settings</a>
             </button>
-
+            
+            <h3 id="ideasText" class="cardText">Ideas</h3>
             <div id="ideaCard" class="card" ondrop="dropIdea(event)" ondragover="allowDrop(event)">
-                <h3 id="ideasText" class="cardText">Ideas</h3>
+                
                 <ul id="ideaList" class="list">
 
                 </ul>
-                 <input type="text" id="cardNameIdea" class="cardName"placeholder="Enter cardName">
+                 <input type="text" id="cardNameIdea" class="cardName"placeholder="Enter card name">
                 <button id=btn onclick="addToIdea()">click to add card</button>
             </div>
-
+            <h3 id="todoText" class="cardText">To Do</h3>
             <div id="toDo" class="card" ondrop="dropTodo(event)" ondragover="allowDrop(event)">
-                <h3 id="todoText" class="cardText">To Do</h3>
+
                 <ul id="todoList" class="list">
 
                 </ul>
-               <input type="text" id="cardNameTodo" class="cardName"placeholder="Enter cardName">
+               <input type="text" id="cardNameTodo" class="cardName"placeholder="Enter card name">
                 <button id=btn onclick="addToDoList()">click to add card</button>
             </div>
-
+            <h3 id="progressText" class="cardText">In Progress</h3>
             <div id="inProgress" class="card" ondrop="dropProgress(event)" ondragover="allowDrop(event)">            
-                <h3 id="progressText" class="cardText">In Progress</h3>
+                
                 <ul id="progressList" class="list">
 
                 </ul>
-                <input type="text" id="cardNameprogress" class="cardName" placeholder="Enter cardName">
+                <input type="text" id="cardNameprogress" class="cardName" placeholder="Enter card name">
                 <button id=btn onclick="addToProgress()">click to add card</button>
             </div>
-
+            <h3 id="finishedText" class="cardText">Finished</h3>
             <div id="finished" class="card"ondrop="dropFinished(event)" ondragover="allowDrop(event)">            
-                <h3 id="finishedText" class="cardText">Finished</h3>
+                
                 <ul id="finishedList" class="list">
 
                 </ul>
-                <input type="text" id="cardNameFinished" class="cardName"placeholder="Enter cardName">
+                <input type="text" id="cardNameFinished" class="cardName"placeholder="Enter card name">
                 <button id=btn onclick="addToFinished()">click to add card</button>
             </div>
 
@@ -86,13 +87,16 @@
                 <input type="text" id="chatInput" placeholder="Enter message">
             </div>
 
-            <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Trashcan</button>
+            <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Show trashcan</button>
             <div id="trashcan">
+                <h3 id="trashText">Trashcan</h3>
                 <ul id="trashList">
-                </ul>        
+                </ul>
+                <button id="emptyTrashcan" onclick="emptyTrash()">Empty trashcan</button>
             </div>
-
+            <p id="info">Drag cards to the trashcan button to move them to the trashcan</p>
         </div>
+        
 
     </body>
     

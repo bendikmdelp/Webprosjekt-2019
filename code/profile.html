@@ -3,6 +3,7 @@
         <link href ="profile.css" rel ="stylesheet">
         <script src="siteLink.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <script src="Chat.js"></script>
 	</head>
     
     <body>
@@ -54,6 +55,16 @@
                 <a id="p_button3" href="profile4.html" class="d_button_3" style="vertical-align: middle"><span>Tor Arne</span></a>
             </div>
             <textarea id="bio">Skriv om deg selv</textarea>
+        </div>
+        <div id="chatbox">
+           
+            <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
+
+            <div id="chatArea">
+                <ul id="chatList">
+                </ul>
+            </div>
+            <input type="text" id="chatInput" placeholder="Enter message">
         </div>
 
     </div>
