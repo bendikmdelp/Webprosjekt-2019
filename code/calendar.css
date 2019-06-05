@@ -24,7 +24,7 @@
     padding: 5px;
     margin-bottom: 0;
 }
-table {
+table{
     border-collapse: collapse;
     border: 1px solid #dee2e6;
     height: 300px;
@@ -39,6 +39,7 @@ table {
     display: flex;
     align-items: center
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -81,8 +82,6 @@ table {
 .today {
     background-color: rgba(46,157,200,0.79);
 }
-
------
 
 html, body{
     height: 1080px;

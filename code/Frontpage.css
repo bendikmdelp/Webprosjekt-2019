@@ -5,6 +5,7 @@ html, body{
     background-image: radial-gradient(rgb(215, 236, 253), rgb(102, 183, 250));
 }
 
+/*Logo and appname*/
 #daiqi{
     width: 500px;
     height: 200px;
@@ -13,6 +14,7 @@ html, body{
     position: absolute;
 }
 
+/*Page container for all the information*/
 #startContainer{
     width: 1920px;
     height: 1080px;
@@ -20,6 +22,7 @@ html, body{
     background-image: radial-gradient(rgb(215, 236, 253), rgb(102, 183, 250));
 }
 
+/*First of four main buttons on main page*/
 #button1{
     left: 510px;
     top: 300px;
@@ -34,17 +37,20 @@ html, body{
     font-family:'Raleway', sans-serif;
 }
 
+/*Hover over button for shadoweffect to give feedback*/
 #button1:hover{
     filter: drop-shadow(20px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
+/*Allign text inside buton*/
 #button1Text{
     position: absolute;
     top: 10px;
     left: 125px;
 }
 
+/*Position button picture*/
 #tablePic{
     position: absolute;
     width: 130px;
