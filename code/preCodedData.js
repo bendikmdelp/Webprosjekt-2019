@@ -72,7 +72,7 @@ window.onload = function addToTask(){
         var descriptionNameNode=document.createTextNode("Description:");
         descriptionName.appendChild(descriptionNameNode);
         cardList.appendChild(descriptionName);
-        descriptionName.style.fontSize="25";
+        descriptionName.style.fontSize="20";
         var descriptionItem=document.createElement("li");
         descriptionItem.innerHTML=tasks[i].description;
         cardList.appendChild(descriptionItem);
@@ -86,7 +86,7 @@ window.onload = function addToTask(){
         var due=document.createElement("li")
         due.innerHTML="Due date: ";
         cardList.appendChild(due);
-        due.style.fontSize="25";
+        due.style.fontSize="20";
         var DueDate = tasks[i].dueDate;
         var dueDate=document.createElement("li");
         dueDate.innerHTML=DueDate;
@@ -94,14 +94,21 @@ window.onload = function addToTask(){
         dueDate.setAttribute("id", "due"+i);
         dueDate.style.fontSize="20";
         
-        var assigned = "Assigned to: "+team[i].name;
+        var assigned = "Assigned to: ";
+        var assignedTo=team[i].name;
         var assignedList=document.createElement("li");
+        var assignedToList=document.createElement("li");
         assignedList.innerHTML=assigned;
         cardList.appendChild(assignedList);
-        assignedList.setAttribute("id", "users"+i);
+        assignedToList.innerHTML=assignedTo;
+        cardList.appendChild(assignedToList);
+        assignedToList.setAttribute("id", "users"+i);
         assignedList.style.fontSize="20";
+        assignedToList.style.fontSize="20";
         
-        cardList.style.width="300px";
+        cardList.style.width="270px";
         cardList.style.backgroundColor="white";
+        cardList.style.borderRadius="25px";
+        cardList.style.margin="2px";
     }
 }
