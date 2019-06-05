@@ -37,14 +37,16 @@ let team = [
     { id: 4, name: "Tor Arne" },
 
 ];
+
 //function used to create card with the info in the tasks array when the page is loaded
 window.onload = function addToTask(){
+    //for loop iterating through the tasks array
     for(var i=0; i<=tasks.length; i++){
-        //var card=document.createElement("li");
         var cardList=document.createElement("ul");
         var cardListElement=document.createElement("li");
         cardList.setAttribute("id", tasks[i].name);
        
+        //Attaching cardlist to different lists depending on where in the array it is
         if(tasks[i].id===1){
             document.getElementById("ideaList").appendChild(cardList);
         }
@@ -55,19 +57,18 @@ window.onload = function addToTask(){
         }else if(tasks[i].id===4){
             document.getElementById("finishedList").appendChild(cardList);
         }
+        
         cardList.setAttribute("draggable", true);
-        cardList.setAttribute("ondragstart","drag(event)");
+        cardList.setAttribute("ondragstart","drag(event)"); //makes cardlist dragabble
         cardList.ondragstart=function(){drag(event)};
         cardListElement.style.fontSize="30";
         cardListElement.innerHTML=tasks[i].name;
-        
-        //card.appendChild(cardList);
         cardList.appendChild(cardListElement);
-        
         var cardNameAtt=document.createAttribute("id");
         cardNameAtt.value=tasks[i].id;
         cardListElement.setAttributeNode(cardNameAtt);
         
+        //Creating description and assigning attributes
         var descriptionName=document.createElement("li");
         var descriptionNameNode=document.createTextNode("Description:");
         descriptionName.appendChild(descriptionNameNode);
@@ -83,6 +84,7 @@ window.onload = function addToTask(){
 
         cardList.style.border="1px solid black";
         
+        //Attaching due date and assigning attributes
         var due=document.createElement("li")
         due.innerHTML="Due date: ";
         cardList.appendChild(due);

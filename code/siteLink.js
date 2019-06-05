@@ -1,19 +1,19 @@
 function linkFrontpage(){
-    window.location.href = "frontpage.html";
+    window.location.href = "/code/Frontpage.html";
 }
 
 function linkProfile(){
-    window.location.href = "profile.html";
+    window.location.href = "/code/Profiles/profile.html";
 }
 
 function linkSettings(){
-    window.location.href = "settings.html";
+    window.location.href = "/code/Info/settings.html";
 }
 
 function linkCalendar(){
-    window.location.href = "Calendar.html";
+    window.location.href = "/code/Calendar/Calendar.html";
 }
 
 function linkTable(){
-    window.location.href = "table.html";
+    window.location.href = "/code/Table/table.html";
 }
