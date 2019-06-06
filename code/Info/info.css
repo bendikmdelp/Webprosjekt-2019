@@ -6,6 +6,7 @@ html, body{
     background-color: rgb(247, 220, 147);
 }
 
+/*Verdiene til hoved-scenen */
 #mainContainer{
     width: 1920px;
     height: 1080px;
@@ -21,7 +22,7 @@ html, body{
     font-size: 40;
     font-family:'Raleway', sans-serif;
 }
-
+/* Daiqi - overskriften */
 #daiqi{
     width: 180px;
     top: 20px;
@@ -29,6 +30,7 @@ html, body{
     position: absolute;
 }
 
+/* Streken som skiller scenen og valg-knappene på siden */
 #divider{
     position: absolute;
     background-color: black;
@@ -38,10 +40,12 @@ html, body{
     height: 900px;
 }
 
+/* Posisjonen til hoved-scenen */
 #mainStage{
     position: absolute;
 }
 
+/* Home-knappen på siden */
 #home{
     position: absolute;
     height: 150px;
@@ -55,11 +59,13 @@ html, body{
     border-width: thin;
 }
 
+/* Hover-effekten som gjør at det kommer skygge når man holder over home-knappen */
 #home:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
+/* Table-knappen på siden */
 #table{
     position: absolute;
     height: 150px;
@@ -73,11 +79,13 @@ html, body{
     border-width: thin;
 }
 
+/* Hover-effekten som gjør at det kommer skygge når man holder over table-knappen */
 #table:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
+/* Calendar-knappen på siden */
 #calendar{
     position: absolute;
     height: 150px;
@@ -91,11 +99,13 @@ html, body{
     border-width: thin;
 }
 
+/* Hover-effekten som gjør at det kommer skygge når man holder over calendar-knappen */
 #calendar:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
+/* Profile-knappen på siden */
 #profile{
     position: absolute;
     height: 150px;
@@ -109,11 +119,13 @@ html, body{
     border-width: thin;
 }
 
+/* Hover-effekten som gjør at det kommer skygge når man holder over profile-knappen */
 #profile:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
+/* Informasjonsteksten */
 #mainText{
     position: absolute;
     top: 150px;
@@ -123,6 +135,8 @@ html, body{
     font-family:'Raleway', sans-serif;
     border: 1px solid black;
 }
+
+/* "Created By" teksten */
 #created{
     position: absolute;
     top: 500px;
@@ -132,6 +146,7 @@ html, body{
     font-family:'Raleway', sans-serif;
 }
 
+/* Navnene våres og verdier */
 .creators{
     position: absolute;
     top: 600px;
