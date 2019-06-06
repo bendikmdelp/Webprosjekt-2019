@@ -6,7 +6,7 @@ function linkProfile(){
     window.location.href = "/code/Profiles/profile.html";
 }
 
-function linkSettings(){
+function linkInfo(){
     window.location.href = "/code/Info/info.html";
 }
 
