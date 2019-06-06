@@ -4,7 +4,7 @@ function allowDrop(ev) {
 
 //function to be able to drag and drop and element
 function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
+  ev.dataTransfer.setData("text", ev.target.id); //Sets a text value to be able to drop the card onto a list
     ev.style.height="50%";
     ev.style.width="50%";
 }
@@ -12,7 +12,7 @@ function drag(ev) {
 //functions to add the dragged element to the list it is hovered over
 function dropTodo(ev) {
     ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
+    var data = ev.dataTransfer.getData("text");//Gets the text value of the dragged element
     document.getElementById("todoList").appendChild(document.getElementById(data));
 
 }
