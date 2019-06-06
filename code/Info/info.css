@@ -132,13 +132,13 @@ html, body{
     left: 400px;
     width: 1500px;
     font-size: 50;
-    font-family:'Raleway', sans-serif;
-    border: 1px solid black;
+    font-family:'Raleway', sans-serif;  
 }
 
 /* "Created By" teksten */
 #created{
     position: absolute;
+    text-decoration: underline;
     top: 500px;
     left:900px;
     width: 270px;

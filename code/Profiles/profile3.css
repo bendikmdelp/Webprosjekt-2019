@@ -37,10 +37,6 @@ html, body{
     height: 900px;
 }
 
-#mainStage{
-    position: absolute;
-}
-
 #home{
     position: absolute;
     height: 150px;
@@ -144,8 +140,6 @@ html, body{
     overflow-y: auto;
 }
 
-
-
 #bioBox{
     position: absolute;
     width: 1075px;
@@ -209,6 +203,7 @@ html, body{
     height: 40px;
     font-size: 20;
 }
+
 #sendBtn{
     position: absolute;
     bottom: 5;
