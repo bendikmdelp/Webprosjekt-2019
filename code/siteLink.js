@@ -1,19 +1,23 @@
 function linkFrontpage(){
-    window.location.href = "/code/Frontpage.html";
+    window.location.href = "../Frontpage/Frontpage.html";
 }
 
 function linkProfile(){
-    window.location.href = "/code/Profiles/profile.html";
+    window.location.href = "../Profiles/profile.html";
 }
 
 function linkInfo(){
-    window.location.href = "/code/Info/info.html";
+    window.location.href = "../Info/info.html";
 }
 
 function linkCalendar(){
-    window.location.href = "/code/Calendar/Calendar.html";
+    window.location.href = "../Calendar/Calendar.html";
 }
 
 function linkTable(){
-    window.location.href = "/code/Table/table.html";
+    window.location.href = "../Table/table.html";
+}
+
+function startSite(){
+    window.location.href="Frontpage/Frontpage.html";
 }
