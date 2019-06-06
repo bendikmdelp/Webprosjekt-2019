@@ -7,7 +7,7 @@ function linkProfile(){
 }
 
 function linkSettings(){
-    window.location.href = "/code/Info/settings.html";
+    window.location.href = "/code/Info/info.html";
 }
 
 function linkCalendar(){
