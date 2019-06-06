@@ -113,3 +113,47 @@ html, body{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
+
+#mainText{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 1500px;
+    font-size: 50;
+    font-family:'Raleway', sans-serif;
+    border: 1px solid black;
+}
+#created{
+    position: absolute;
+    top: 500px;
+    left:900px;
+    width: 270px;
+    font-size: 50;
+    font-family:'Raleway', sans-serif;
+}
+
+.creators{
+    position: absolute;
+    top: 600px;
+    width: 300px;
+    font-size: 30;
+    font-family:'Raleway', sans-serif;
+    
+}
+
+#bendik{
+    left: 400px;
+}
+
+#hadi{
+    left: 650px;
+}
+#vilgeir{
+    left:1000px;
+}
+#ali{
+    left:1350px;
+}
+#ole{
+    left:1700px;
+}
