@@ -6,7 +6,7 @@ html, body{
     background-color: rgb(247, 220, 147);
 }
 
-/*Verdiene til hoved-scenen */
+/*Values for main stage */
 #mainContainer{
     width: 1920px;
     height: 1080px;
@@ -22,7 +22,7 @@ html, body{
     font-size: 40;
     font-family:'Raleway', sans-serif;
 }
-/* Daiqi - overskriften */
+/* Daiqi - header */
 #daiqi{
     width: 180px;
     top: 20px;
@@ -30,7 +30,7 @@ html, body{
     position: absolute;
 }
 
-/* Streken som skiller scenen og valg-knappene på siden */
+/* The line that seperates the buttons and the main page */
 #divider{
     position: absolute;
     background-color: black;
@@ -40,12 +40,12 @@ html, body{
     height: 900px;
 }
 
-/* Posisjonen til hoved-scenen */
+/* Main stage position */
 #mainStage{
     position: absolute;
 }
 
-/* Home-knappen på siden */
+/* Home-button on the side */
 #home{
     position: absolute;
     height: 150px;
@@ -59,13 +59,13 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effekten som gjør at det kommer skygge når man holder over home-knappen */
+/* Hover-effect which makes a shadow behind the home-button when u hover over it. */
 #home:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
-/* Table-knappen på siden */
+/* Table-button on the side */
 #table{
     position: absolute;
     height: 150px;
@@ -79,13 +79,13 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effekten som gjør at det kommer skygge når man holder over table-knappen */
+/* Hover-effect which makes a shadow behind the table-button when u hover over it. */
 #table:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
-/* Calendar-knappen på siden */
+/* Calendar-button on the side */
 #calendar{
     position: absolute;
     height: 150px;
@@ -99,13 +99,13 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effekten som gjør at det kommer skygge når man holder over calendar-knappen */
+/* Hover-effect which makes a shadow behind the calendar-button when u hover over it. */
 #calendar:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
-/* Profile-knappen på siden */
+/* Profile-button on the side */
 #profile{
     position: absolute;
     height: 150px;
@@ -119,13 +119,13 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effekten som gjør at det kommer skygge når man holder over profile-knappen */
+/* Hover-effect which makes a shadow behind the profile-button when u hover over it. */
 #profile:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
 }
 
-/* Informasjonsteksten */
+/* Info-text */
 #mainText{
     position: absolute;
     top: 150px;
@@ -136,7 +136,7 @@ html, body{
     border: 1px solid black;
 }
 
-/* "Created By" teksten */
+/* "Created By" - text */
 #created{
     position: absolute;
     top: 500px;
@@ -146,7 +146,7 @@ html, body{
     font-family:'Raleway', sans-serif;
 }
 
-/* Navnene våres og verdier */
+/* The names and values */
 .creators{
     position: absolute;
     top: 600px;
