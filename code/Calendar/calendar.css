@@ -11,6 +11,7 @@ html, body{
     margin: 0;
     position: absolute;
     background-color: rgb(247, 159, 147);
+    overflow: hidden;
 }
 
 #name{
@@ -112,7 +113,7 @@ html, body{
 .mainHolder{
     position: relative;
     top: 100px;
-    left: 300px;
+    left: 200px;
     width: 1600px;
     padding-right: 15px;
     padding-left: 15px;
