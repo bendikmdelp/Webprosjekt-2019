@@ -38,10 +38,6 @@ html, body{
     height: 900px;
 }
 
-#mainStage{
-    position: absolute;
-}
-
 #home{
     position: absolute;
     height: 150px;
@@ -233,6 +229,7 @@ html, body{
     border-radius: 25px;
     font-family:'Raleway', sans-serif;
 }
+
 #chatBtn:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
@@ -260,6 +257,7 @@ html, body{
     font-size: 20;
     font-family:'Raleway', sans-serif;
 }
+
 #sendBtn{
     position: absolute;
     bottom: 5;
@@ -280,6 +278,7 @@ html, body{
     border-radius: 25px;
     font-family:'Raleway', sans-serif;
 }
+
 #showTrash{
     position: absolute;
     bottom:0;
@@ -291,6 +290,7 @@ html, body{
     border-radius: 25px;
     font-family:'Raleway', sans-serif;
 }
+
 #showTrash:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
@@ -303,6 +303,7 @@ html, body{
     font-size: 60;
     margin: 0;
 }
+
 #trashList{
     position: absolute;
     top: 50px;
@@ -323,4 +324,3 @@ html, body{
     font-size: 40;
     font-family:'Raleway', sans-serif;
 }
-

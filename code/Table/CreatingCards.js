@@ -4,12 +4,14 @@ function addToIdea(){
     var cardList=document.createElement("ul"); //creates a new list
     var cardName=document.getElementById("cardNameIdea").value;
     var cardListElement=document.createElement("li");
+    
     //addind id, and dragable attributes to the card, and changing the font size to 30
     cardList.setAttribute("id", cardName); //sets the id of the card equal to the name of the card
     cardList.setAttribute("draggable",true);
     cardList.setAttribute("ondragstart","drag(event)");
     cardList.ondragstart=function(){drag(event)};
-    cardList.style.fontSize="30";  
+    cardList.style.fontSize="30"; 
+
     //Creating and editing the name of the task at the top of the card
     var textNode =document.createTextNode("Name: "+cardName);
     cardListElement.appendChild(textNode);
@@ -18,6 +20,7 @@ function addToIdea(){
     var cardNameAtt=document.createAttribute("id");
     cardNameAtt.value=cardName;
     cardListElement.setAttributeNode(cardNameAtt);
+
     //Creating a textarea to serve as a description for the task
     var description = document.createElement("textarea");
     description.setAttribute("type","text");
