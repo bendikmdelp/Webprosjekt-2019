@@ -58,7 +58,7 @@ function renderCalender(month, year) {
 
     let daysInMonth = 32 - new Date(year, month, 32).getDate();
     let firstDay = (new Date(year, month)).getDay();
-    let body = document.getElementById("calendar-body"); //body
+    let body = document.getElementById("calendarBody"); //body
     //deletes old grid grids.
     body.innerHTML = "";
 
@@ -121,14 +121,11 @@ function renderCalender(month, year) {
                 date++;
                 grid.style.width="80px";
             }
-
-            
+ 
         }
         
         row.style.height="120px";
         body.appendChild(row); // appending every row to the body.
-        
-
 
     }
 }

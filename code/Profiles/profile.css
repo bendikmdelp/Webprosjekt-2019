@@ -37,10 +37,6 @@ html, body{
     height: 900px;
 }
 
-#mainStage{
-    position: absolute;
-}
-
 #home{
     position: absolute;
     height: 150px;
@@ -143,8 +139,6 @@ html, body{
     margin: 0;
     overflow-y: auto;
 }
-
-
 
 #bioBox{
     position: absolute;

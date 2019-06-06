@@ -16,10 +16,12 @@
     <div id="divider"></div>
     
     <div id="mainStage">
-        <div class="main-container">
-            <div class="calendar-container">
-                <h3 class="calendar-head" id="monthAndYear"></h3>
-                <table class="table table-bordered" id="calendar">
+
+        <div class="mainHolder">
+
+            <div class="calendarContainer">
+                <h3 class="calendarHead" id="monthAndYear"></h3>
+                <table class="table tableBordered" id="calendar">
                     <thead>
                     <tr>
                         <th>Sun</th>
@@ -31,14 +33,14 @@
                         <th>Sat</th>
                     </tr>
                     </thead>
-                    <tbody id="calendar-body"></tbody>
+                    <tbody id="calendarBody"></tbody>
                 </table>
-                <div class="calendar-foot">
+                <div class="calendarFoot">
                     <button class="btn btn-outline" id="previous" onclick="previousMonth()">Previous month</button>
                     <button class="btn btn-outline" id="next" onclick="nextMonth()">Next month</button>
                 </div>
                 <br/>
-                <form class="calendar-foot">
+                <form class="calendarFoot">
                     <select class="dropdown" name="month" id="month" onchange="changeDate()">
                         <option value=0>Jan</option>
                         <option value=1>Feb</option>
