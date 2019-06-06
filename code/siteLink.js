@@ -1,3 +1,4 @@
+//Functions to link the user to various pages
 function linkFrontpage(){
     window.location.href = "../Frontpage/Frontpage.html";
 }

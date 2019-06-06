@@ -38,7 +38,7 @@
             <button id="settings" onclick="linkInfo()">
                 <a id="homeText">Info</a>
             </button>
-            
+            <!--Creating the cards an text -->
             <h3 id="ideasText" class="cardText">Ideas</h3>
             <div id="ideaCard" class="card" ondrop="dropIdea(event)" ondragover="allowDrop(event)">
                 
@@ -75,7 +75,8 @@
                 <input type="text" id="cardNameFinished" class="cardName"placeholder="Enter card name">
                 <button id=btn onclick="addToFinished()">Click to add</button>
             </div>
-
+            
+            <!--Creating the chatbox-->
             <div id="chatbox">
                 <button type="button" id=chatBtn onclick="showChat()">show chat</button>
                 <button type="button" id="sendBtn" onclick="sendChat()">Send</button>
@@ -86,7 +87,8 @@
                 </div>
                 <input type="text" id="chatInput" placeholder="Enter message">
             </div>
-
+            
+            <!--Creating the trashcan-->
             <button id="showTrash" onclick="showTrashcan()" ondrop="dropTrash(event)" ondragover="allowDrop(event)">Show trashcan</button>
             <div id="trashcan">
                 <h3 id="trashText">Trashcan</h3>

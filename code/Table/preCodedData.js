@@ -96,6 +96,7 @@ window.onload = function addToTask(){
         dueDate.setAttribute("id", "due"+i);
         dueDate.style.fontSize="20";
         
+        //Adds users to the project from the team array
         var assigned = "Assigned to: ";
         var assignedTo=team[i].name;
         var assignedList=document.createElement("li");
@@ -108,6 +109,7 @@ window.onload = function addToTask(){
         assignedList.style.fontSize="20";
         assignedToList.style.fontSize="20";
         
+        //adding style to the cards
         cardList.style.width="270px";
         cardList.style.backgroundColor="white";
         cardList.style.borderRadius="25px";

@@ -1,11 +1,11 @@
 //functions to create new cards with info
 function addToIdea(){
     //creating the new list and creating the first list element for that list
-    var cardList=document.createElement("ul");
+    var cardList=document.createElement("ul"); //creates a new list
     var cardName=document.getElementById("cardNameIdea").value;
     var cardListElement=document.createElement("li");
     //addind id, and dragable attributes to the card, and changing the font size to 30
-    cardList.setAttribute("id", cardName);
+    cardList.setAttribute("id", cardName); //sets the id of the card equal to the name of the card
     cardList.setAttribute("draggable",true);
     cardList.setAttribute("ondragstart","drag(event)");
     cardList.ondragstart=function(){drag(event)};
@@ -48,6 +48,7 @@ function addToIdea(){
     userItem.appendChild(userNode);
     cardList.appendChild(userItem);
     userItem.style.fontSize="20";
+    //loop to add new users to the list until the user decides not to anymore
     do{
         var i = 0;
         var users = prompt("Choose a user: 1=John Frederik, 2=Jaspreet Singh, 3=Marit Sivertsen, 4=Tor Arne");
@@ -85,14 +86,14 @@ function addToIdea(){
     }while(users!==null)
     
  
-    //style changing the card
+    //adding style to the card
     cardList.style.border="1px solid black";
     cardList.style.width="270px";
     cardList.style.backgroundColor="white";
     cardList.style.borderRadius="25px";
     cardList.style.margin="2px";
 }
-
+//the next three functions is similar to the previous one, only attaches to a different card
 function addToDoList(){
     var cardList=document.createElement("ul");
     var cardName=document.getElementById("cardNameTodo").value;
