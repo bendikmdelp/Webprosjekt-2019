@@ -12,7 +12,7 @@ function linkInfo(){
 }
 
 function linkCalendar(){
-    window.location.href = "../Calendar/calendar.html";
+    window.location.href = "../Calendar/Calendar.html";
 }
 
 function linkTable(){
