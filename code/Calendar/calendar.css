@@ -1,0 +1,300 @@
+<<<<<<< HEAD:code/Calendar/calendar.css
+=======
+.main-container {
+    position: relative;
+    top: 250px;
+    left: 300px;
+    width: 1300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.calendar-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+}
+.calendar-head {
+    position:relative;
+    left: 50%;
+    padding: 5px;
+    margin-bottom: 0;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    height: 300px;
+}
+
+.table-bordered, thead, td, th {
+    padding: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.calendar-foot {
+    display: flex;
+    align-items: center
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: .25rem;
+    flex: 1px;
+}
+.btn-outline {
+    background-color: transparent;
+    border-color: #007bff
+}
+
+.btn-outline:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.dropdown {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.calendarTask {
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    border: 1px solid #007bff;
+    background-color: rgba(0, 122, 255, 0.32);
+    cursor: pointer;
+}
+.today {
+    background-color: rgba(46,157,200,0.79);
+}
+
+.grid {
+    width: 200px;
+    height: 100px;
+}
+
+
+
+-----
+
+>>>>>>> Ole:code/calendar.css
+html, body{
+    height: 1080px;
+    width: 1920px;
+    margin: auto;
+    background-color: F79F93;
+}
+
+#mainContainer{
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    position: absolute;
+<<<<<<< HEAD:code/Calendar/calendar.css
+    background-color: rgb(247, 159, 147);
+    overflow: hidden;
+=======
+    background-color: F79F93;
+>>>>>>> Ole:code/calendar.css
+}
+
+#name{
+    position: absolute;
+    left: 16px;
+    top: 484px;
+    font-size: 40;
+    font-family:'Raleway', sans-serif;
+}
+
+#daiqi{
+    width: 180px;
+    top: 20px;
+    left: 900px;
+    position: absolute;
+}
+
+#divider{
+    position: absolute;
+    background-color: black;
+    left: 260px;
+    top: 100px;
+    width: 5px;
+    height: 900px;
+}
+
+#home{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:100px;
+    background-color: rgb(252, 146, 146);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#home:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s;
+}
+
+#table{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:280px;
+    background-color: rgb(147, 187, 247);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#table:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s;
+}
+
+#settings{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 820px;
+    background-color: rgb(247, 220, 147);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#settings:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s;
+}
+
+#profile{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:640px;
+    background-color: rgb(193, 241, 165);
+    font-size: 40;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    border-style: solid;
+    border-width: thin;
+}
+
+#profile:hover{
+    filter: drop-shadow(10px 10px 1px #4444dd);
+    transition: 0.1s;
+}
+
+.mainHolder{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 1600px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.calendarContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: .25rem
+}
+.calendarHead{
+    position:relative;
+    left: 50%;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    height: 300px;
+}
+
+.tableBordered, thead, td, th{
+    padding: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.calendarFoot{
+    display: flex;
+    align-items: center
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: .25rem;
+    flex: 1px;
+}
+
+.btnOutline{
+    background-color: transparent;
+    border-color: #007bff
+}
+
+.btnOutline:hover{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.dropdown{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.calendarTask{
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    border: 1px solid #007bff;
+    background-color: rgba(0, 122, 255, 0.32);
+}
+
+.today{
+    background-color: rgba(46,157,200,0.79);
+}
