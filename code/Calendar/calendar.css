@@ -234,7 +234,7 @@ html, body{
     height: 300px;
 }
 
-.tableBordered, thead, td, th{
+.tableBordered, thead, tr, th{
     padding: 5px;
     border: 1px solid #dee2e6;
 }
