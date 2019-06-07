@@ -2,7 +2,7 @@
     position: relative;
     top: 250px;
     left: 300px;
-    width: 1400px;
+    width: 1300px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -16,7 +16,7 @@
     min-width: 0;
     background-color: #fff;
     border: 1px solid #007bff;
-    border-radius: .25rem
+    border-radius: 2px;
 }
 .calendar-head {
     position:relative;
@@ -65,7 +65,7 @@ table {
     padding: 5px 10px;
     font-size: 20px;
     color: black;
-    background-color: #fff;
+    background-color: #ffffff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
 }
@@ -77,10 +77,18 @@ table {
     display: inline-block;
     border: 1px solid #007bff;
     background-color: rgba(0, 122, 255, 0.32);
+    cursor: pointer;
 }
 .today {
     background-color: rgba(46,157,200,0.79);
 }
+
+.grid {
+    width: 200px;
+    height: 100px;
+}
+
+
 
 -----
 
@@ -88,7 +96,7 @@ html, body{
     height: 1080px;
     width: 1920px;
     margin: auto;
-    background-color: rgb(247, 159, 147);
+    background-color: F79F93;
 }
 
 #mainContainer{
@@ -96,7 +104,7 @@ html, body{
     height: 1080px;
     margin: 0;
     position: absolute;
-    background-color: rgb(247, 159, 147);
+    background-color: F79F93;
 }
 
 #name{
