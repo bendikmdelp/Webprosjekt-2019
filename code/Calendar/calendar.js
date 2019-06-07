@@ -59,9 +59,7 @@ function renderCalender(month, year) {
     let daysInMonth = 32 - new Date(year, month, 32).getDate();
     let firstDay = (new Date(year, month)).getDay();
     let body = document.getElementById("calendarBody"); //body
-    //deletes old grid grids.
     body.innerHTML = "";
-
     //sets the heading to current month and year
     monthAndYear.innerHTML = monthsArray[month] + " " + year;
     selectMonth.value = month;
@@ -78,7 +76,6 @@ function renderCalender(month, year) {
                 let grid = document.createElement("td");
                 grid.appendChild(gridText); //sets each grid to empty
                 row.appendChild(grid); //appends td to each row
-                grid.style.width="80px";
             }
             else if (date > daysInMonth) {
                 break;
@@ -91,6 +88,7 @@ function renderCalender(month, year) {
                     grid.classList.add("today"); //styling for current day
                 }
                 grid.appendChild(gridText);
+                grid.classList.add("grid"); // sets height and width for each cell in the grid.
                 // Hardcode each "card" and adds a class for styling.
                 // month starts on 0, so january = 0.
                 if(year === 2019 && month === 5 && date === 5){
@@ -119,13 +117,14 @@ function renderCalender(month, year) {
                 }
                 row.appendChild(grid);
                 date++;
-                grid.style.width="80px";
             }
- 
+
+
         }
-        
-        row.style.height="120px";
+
         body.appendChild(row); // appending every row to the body.
 
+
     }
+
 }

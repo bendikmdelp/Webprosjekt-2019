@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
     <link href ="calendar.css" rel ="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <script src="../siteLink.js"></script>
 </head>
 
 <body>
@@ -12,14 +10,12 @@
 
     <h1 id="name">Calendar</h1>
 
-    <img id="daiqi" src="../Pictures/daiqi_logo.png">
+    <img id="daiqi" src="Pictures/daiqi_logo.png">
 
     <div id="divider"></div>
-    
+
     <div id="mainStage">
-
-        <div class="mainHolder">
-
+        <div class="mainContainer">
             <div class="calendarContainer">
                 <h3 class="calendarHead" id="monthAndYear"></h3>
                 <table class="table tableBordered" id="calendar">
@@ -37,8 +33,8 @@
                     <tbody id="calendarBody"></tbody>
                 </table>
                 <div class="calendarFoot">
-                    <button class="btn btn-outline" id="previous" onclick="previousMonth()">Previous month</button>
-                    <button class="btn btn-outline" id="next" onclick="nextMonth()">Next month</button>
+                    <button class="btn btnOutline" id="previous" onclick="previousMonth()">Previous month</button>
+                    <button class="btn btnOutline" id="next" onclick="nextMonth()">Next month</button>
                 </div>
                 <br/>
                 <form class="calendarFoot">
@@ -111,8 +107,8 @@
         <a id="homeText">Profile</a>
     </button>
 
-    <button id="settings" onclick="linkInfo()">
-        <a id="homeText">Info</a>
+    <button id="settings" onclick="linkSettings()">
+        <a id="homeText">Settings</a>
     </button>
 
 </div>

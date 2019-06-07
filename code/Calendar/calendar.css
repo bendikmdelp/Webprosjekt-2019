@@ -1,4 +1,4 @@
-/*.main-container {
+.mainContainer {
     position: relative;
     top: 250px;
     left: 300px;
@@ -6,11 +6,10 @@
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
-   
+    margin-left: auto
 }
 
-.calendar-container {
+.calendarContainer {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -19,7 +18,7 @@
     border: 1px solid #007bff;
     border-radius: 2px;
 }
-.calendar-head {
+.calendarHead {
     position:relative;
     left: 50%;
     padding: 5px;
@@ -31,15 +30,15 @@ table {
     height: 300px;
 }
 
-.table-bordered, thead, td, th {
+.tableBordered, thead, td, th {
     padding: 5px;
     border: 1px solid #dee2e6;
 }
 
-.calendar-foot {
+.calendarFoot {
     display: flex;
     align-items: center
-}*/
+}
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -50,15 +49,15 @@ table {
     border-radius: .25rem;
     flex: 1px;
 }
-.btn-outline {
+.btnOutline {
     background-color: transparent;
-    border-color: #007bff;
+    border-color: #007bff
 }
 
-.btn-outline:hover {
+.btnOutline:hover {
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff;
+    border-color: #007bff
 }
 
 .dropdown {
@@ -83,17 +82,21 @@ table {
 .today {
     background-color: rgba(46,157,200,0.79);
 }
-/*
+
 .grid {
     width: 200px;
     height: 100px;
 }
-*/
+
+
+
+-----
+
 html, body{
     height: 1080px;
     width: 1920px;
     margin: auto;
-    background-color: rgb(247, 159, 147);
+    background-color: F79F93;
 }
 
 #mainContainer{
@@ -101,8 +104,7 @@ html, body{
     height: 1080px;
     margin: 0;
     position: absolute;
-    background-color: rgb(247, 159, 147);
-    overflow: hidden;
+    background-color: F79F93;
 }
 
 #name{
@@ -127,6 +129,10 @@ html, body{
     top: 100px;
     width: 5px;
     height: 900px;
+}
+
+#mainStage{
+    position: absolute;
 }
 
 #home{
@@ -200,91 +206,3 @@ html, body{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s;
 }
-
-.mainHolder{
-    position: relative;
-    top: 100px;
-    left: 200px;
-    width: 1600px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.calendarContainer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    background-color: #fff;
-    border: 1px solid #007bff;
-    border-radius: .25rem;
-}
-.calendarHead{
-    position:relative;
-    left: 50%;
-    padding: 5px;
-    margin-bottom: 0;
-}
-
-.table{
-    border-collapse: collapse;
-    border: 1px solid #dee2e6;
-    height: 300px;
-}
-
-.tableBordered, thead, tr, th{
-    padding: 5px;
-    border: 1px solid #dee2e6;
-}
-
-.calendarFoot{
-    display: flex;
-    align-items: center;
-}
-/*
-.btn{
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    border: 1px solid;
-    padding: 2px;
-    font-size: 20px;
-    border-radius: .25rem;
-    flex: 1px;
-}
-
-.btnOutline{
-    background-color: transparent;
-    border-color: #007bff
-}
-
-.btnOutline:hover{
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
-}
-
-.dropdown{
-    width: 100%;
-    padding: 5px 10px;
-    font-size: 20px;
-    color: black;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-}
-
-.calendarTask{
-    margin-left: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    border: 1px solid #007bff;
-    background-color: rgba(0, 122, 255, 0.32);
-}
-
-.today{
-    background-color: rgba(46,157,200,0.79);
-}*/
