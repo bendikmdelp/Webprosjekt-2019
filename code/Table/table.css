@@ -113,7 +113,6 @@ html, body{
 #input{
     position: absolute;
     top:500px;
-    
 }
 
 .cardName{
@@ -163,15 +162,18 @@ html, body{
     font-size: 80;
 
 }
+
 #todoText{
     font-size: 80;
     left: 700px;
 }
+
 #progressText{
     font-size: 70;
     left: 1100px;
     
 }
+
 #finishedText{
     font-size: 80;
     left:  1500px;
@@ -206,7 +208,6 @@ html, body{
     z-index: 90;
     background-color: rgb(247, 220, 147);
     font-size: 80;
-
 }
 
 #chatbox{
