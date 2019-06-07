@@ -61,7 +61,7 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effect which makes a shadow behind the home-button when u hover over it. */
+/* Hover-effect which makes a shadow behind the home-button when you hover over it. */
 #home:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
@@ -81,7 +81,7 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effect which makes a shadow behind the table-button when u hover over it. */
+/* Hover-effect which makes a shadow behind the table-button when you hover over it. */
 #table:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
@@ -101,7 +101,7 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effect which makes a shadow behind the calendar-button when u hover over it. */
+/* Hover-effect which makes a shadow behind the calendar-button when you hover over it. */
 #calendar:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
@@ -121,7 +121,7 @@ html, body{
     border-width: thin;
 }
 
-/* Hover-effect which makes a shadow behind the profile-button when u hover over it. */
+/* Hover-effect which makes a shadow behind the profile-button when you hover over it. */
 #profile:hover{
     filter: drop-shadow(10px 10px 1px #4444dd);
     transition: 0.1s; 
