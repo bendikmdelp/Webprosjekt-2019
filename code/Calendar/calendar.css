@@ -83,12 +83,12 @@ table {
 .today {
     background-color: rgba(46,157,200,0.79);
 }
-
+/*
 .grid {
     width: 200px;
     height: 100px;
 }
-
+*/
 html, body{
     height: 1080px;
     width: 1920px;
@@ -243,7 +243,7 @@ table{
     display: flex;
     align-items: center
 }
-
+/*
 .btn{
     display: inline-block;
     font-weight: 400;
@@ -287,4 +287,4 @@ table{
 
 .today{
     background-color: rgba(46,157,200,0.79);
-}
+}*/
