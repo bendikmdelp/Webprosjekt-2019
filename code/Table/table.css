@@ -13,7 +13,7 @@ html, body{
     background-color: rgb(147, 187, 247);
     overflow: hidden;
 }
-
+/*Line 16-117: Styling for the site template*/
 #name{
     position: absolute;
     left: 50px;
@@ -115,7 +115,7 @@ html, body{
     top:500px;
     
 }
-
+/*line 118-210: Styling for the different cards and features*/
 .cardName{
     position: absolute;
     top: 5px;
@@ -208,7 +208,7 @@ html, body{
     font-size: 80;
 
 }
-
+/*Line 211-267: Styling for the chatbox and features*/
 #chatbox{
     position: absolute;
     height: 300px;
@@ -265,7 +265,7 @@ html, body{
     width: 120px;
     height: 40px;
 }
-
+/*line 268-318: Styling for the trashcan and features*/
 #trashcan{
     position: absolute;
     height: 500px;
@@ -316,7 +316,7 @@ html, body{
     height: 50px;
     width: 100px;
 }
-
+/*Styling for the infor text*/
 #info{
     position: absolute;
     bottom: 50px;
