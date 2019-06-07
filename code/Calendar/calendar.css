@@ -228,7 +228,7 @@ html, body{
     margin-bottom: 0;
 }
 
-table{
+.table{
     border-collapse: collapse;
     border: 1px solid #dee2e6;
     height: 300px;
