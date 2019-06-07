@@ -52,13 +52,13 @@ table {
 }
 .btn-outline {
     background-color: transparent;
-    border-color: #007bff
+    border-color: #007bff;
 }
 
 .btn-outline:hover {
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff
+    border-color: #007bff;
 }
 
 .dropdown {
@@ -209,7 +209,7 @@ html, body{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .calendarContainer{
@@ -219,7 +219,7 @@ html, body{
     min-width: 0;
     background-color: #fff;
     border: 1px solid #007bff;
-    border-radius: .25rem
+    border-radius: .25rem;
 }
 .calendarHead{
     position:relative;
@@ -241,7 +241,7 @@ html, body{
 
 .calendarFoot{
     display: flex;
-    align-items: center
+    align-items: center;
 }
 /*
 .btn{
