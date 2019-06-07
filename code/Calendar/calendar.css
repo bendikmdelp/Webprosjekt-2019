@@ -1,4 +1,4 @@
-.main-container {
+/*.main-container {
     position: relative;
     top: 250px;
     left: 300px;
@@ -39,7 +39,7 @@ table {
 .calendar-foot {
     display: flex;
     align-items: center
-}
+}*/
 .btn {
     display: inline-block;
     font-weight: 400;
